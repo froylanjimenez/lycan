@@ -1,0 +1,1386 @@
+[
+  {
+    "nombre": "Villorina Diaz Yehider Enmanuel",
+    "apellido": "Villorina Diaz Yehider Enmanuel",
+    "archivo": "reportes_externo/001-Villorina-Diaz-Yehider-Enmanuel.html",
+    "icfes": 388,
+    "estado": "Con opciones",
+    "rank": 1
+  },
+  {
+    "nombre": "Tirado Garay Justin",
+    "apellido": "Tirado Garay Justin",
+    "archivo": "reportes_externo/002-Tirado-Garay-Justin.html",
+    "icfes": 373,
+    "estado": "Con opciones",
+    "rank": 2
+  },
+  {
+    "nombre": "Ruiz Monterroza Sebastian",
+    "apellido": "Ruiz Monterroza Sebastian",
+    "archivo": "reportes_externo/003-Ruiz-Monterroza-Sebastian.html",
+    "icfes": 368,
+    "estado": "Con opciones",
+    "rank": 3
+  },
+  {
+    "nombre": "Alean Zapata Samuel",
+    "apellido": "Alean Zapata Samuel",
+    "archivo": "reportes_externo/004-Alean-Zapata-Samuel.html",
+    "icfes": 352,
+    "estado": "Con opciones",
+    "rank": 4
+  },
+  {
+    "nombre": "Cali Estrada Stiven Dario",
+    "apellido": "Cali Estrada Stiven Dario",
+    "archivo": "reportes_externo/005-Cali-Estrada-Stiven-Dario.html",
+    "icfes": 348,
+    "estado": "Con opciones",
+    "rank": 5
+  },
+  {
+    "nombre": "Villegas Herrera Maria Jose",
+    "apellido": "Villegas Herrera Maria Jose",
+    "archivo": "reportes_externo/006-Villegas-Herrera-Maria-Jose.html",
+    "icfes": 346,
+    "estado": "Con opciones",
+    "rank": 6
+  },
+  {
+    "nombre": "Perez Padilla Daylis",
+    "apellido": "Perez Padilla Daylis",
+    "archivo": "reportes_externo/007-Perez-Padilla-Daylis.html",
+    "icfes": 345,
+    "estado": "Con opciones",
+    "rank": 7
+  },
+  {
+    "nombre": "Ruiz Granados Yerman Yair",
+    "apellido": "Ruiz Granados Yerman Yair",
+    "archivo": "reportes_externo/008-Ruiz-Granados-Yerman-Yair.html",
+    "icfes": 336,
+    "estado": "Con opciones",
+    "rank": 8
+  },
+  {
+    "nombre": "Mejia Heredia Kevin David",
+    "apellido": "Mejia Heredia Kevin David",
+    "archivo": "reportes_externo/009-Mejia-Heredia-Kevin-David.html",
+    "icfes": 328,
+    "estado": "Con opciones",
+    "rank": 9
+  },
+  {
+    "nombre": "Florez Oviedo Samahara",
+    "apellido": "Florez Oviedo Samahara",
+    "archivo": "reportes_externo/010-Florez-Oviedo-Samahara.html",
+    "icfes": 327,
+    "estado": "Con opciones",
+    "rank": 10
+  },
+  {
+    "nombre": "Duque Herrera Diego David",
+    "apellido": "Duque Herrera Diego David",
+    "archivo": "reportes_externo/011-Duque-Herrera-Diego-David.html",
+    "icfes": 327,
+    "estado": "Con opciones",
+    "rank": 11
+  },
+  {
+    "nombre": "Rodriguez Osorio Sharon Lishell",
+    "apellido": "Rodriguez Osorio Sharon Lishell",
+    "archivo": "reportes_externo/012-Rodriguez-Osorio-Sharon-Lishell.html",
+    "icfes": 320,
+    "estado": "Con opciones",
+    "rank": 12
+  },
+  {
+    "nombre": "De La Ossa Polo Alex Jose",
+    "apellido": "De La Ossa Polo Alex Jose",
+    "archivo": "reportes_externo/013-De-La-Ossa-Polo-Alex-Jose.html",
+    "icfes": 318,
+    "estado": "Con opciones",
+    "rank": 13
+  },
+  {
+    "nombre": "Hoyos Navarro Steven Andres",
+    "apellido": "Hoyos Navarro Steven Andres",
+    "archivo": "reportes_externo/014-Hoyos-Navarro-Steven-Andres.html",
+    "icfes": 318,
+    "estado": "Con opciones",
+    "rank": 14
+  },
+  {
+    "nombre": "Paternina Hincapie Juan Pablo",
+    "apellido": "Paternina Hincapie Juan Pablo",
+    "archivo": "reportes_externo/015-Paternina-Hincapie-Juan-Pablo.html",
+    "icfes": 314,
+    "estado": "Con opciones",
+    "rank": 15
+  },
+  {
+    "nombre": "Garces Mendoza Valery",
+    "apellido": "Garces Mendoza Valery",
+    "archivo": "reportes_externo/016-Garces-Mendoza-Valery.html",
+    "icfes": 310,
+    "estado": "Con opciones",
+    "rank": 16
+  },
+  {
+    "nombre": "Mendoza Feria Carlos Enrique",
+    "apellido": "Mendoza Feria Carlos Enrique",
+    "archivo": "reportes_externo/017-Mendoza-Feria-Carlos-Enrique.html",
+    "icfes": 310,
+    "estado": "Con opciones",
+    "rank": 17
+  },
+  {
+    "nombre": "Ruiz Villadiego Pamela Denise",
+    "apellido": "Ruiz Villadiego Pamela Denise",
+    "archivo": "reportes_externo/018-Ruiz-Villadiego-Pamela-Denise.html",
+    "icfes": 305,
+    "estado": "Con opciones",
+    "rank": 18
+  },
+  {
+    "nombre": "Diaz Hernandez Syara Sofia",
+    "apellido": "Diaz Hernandez Syara Sofia",
+    "archivo": "reportes_externo/019-Diaz-Hernandez-Syara-Sofia.html",
+    "icfes": 297,
+    "estado": "Con opciones",
+    "rank": 19
+  },
+  {
+    "nombre": "Vargas Vides Samuel",
+    "apellido": "Vargas Vides Samuel",
+    "archivo": "reportes_externo/020-Vargas-Vides-Samuel.html",
+    "icfes": 296,
+    "estado": "Con opciones",
+    "rank": 20
+  },
+  {
+    "nombre": "Fuentes Mendez Sheryl Andrea",
+    "apellido": "Fuentes Mendez Sheryl Andrea",
+    "archivo": "reportes_externo/021-Fuentes-Mendez-Sheryl-Andrea.html",
+    "icfes": 295,
+    "estado": "Con opciones",
+    "rank": 21
+  },
+  {
+    "nombre": "Perez Choles Michell Andrea",
+    "apellido": "Perez Choles Michell Andrea",
+    "archivo": "reportes_externo/022-Perez-Choles-Michell-Andrea.html",
+    "icfes": 295,
+    "estado": "Con opciones",
+    "rank": 22
+  },
+  {
+    "nombre": "Arrieta Gomez Juliana",
+    "apellido": "Arrieta Gomez Juliana",
+    "archivo": "reportes_externo/023-Arrieta-Gomez-Juliana.html",
+    "icfes": 294,
+    "estado": "Con opciones",
+    "rank": 23
+  },
+  {
+    "nombre": "Martinez Salas Marisol",
+    "apellido": "Martinez Salas Marisol",
+    "archivo": "reportes_externo/024-Martinez-Salas-Marisol.html",
+    "icfes": 294,
+    "estado": "Con opciones",
+    "rank": 24
+  },
+  {
+    "nombre": "Marcelo Serpa Ivan David",
+    "apellido": "Marcelo Serpa Ivan David",
+    "archivo": "reportes_externo/025-Marcelo-Serpa-Ivan-David.html",
+    "icfes": 291,
+    "estado": "Con opciones",
+    "rank": 25
+  },
+  {
+    "nombre": "Madrid Sierra Angelica",
+    "apellido": "Madrid Sierra Angelica",
+    "archivo": "reportes_externo/026-Madrid-Sierra-Angelica.html",
+    "icfes": 291,
+    "estado": "Con opciones",
+    "rank": 26
+  },
+  {
+    "nombre": "Ruiz Martinez Stefany",
+    "apellido": "Ruiz Martinez Stefany",
+    "archivo": "reportes_externo/027-Ruiz-Martinez-Stefany.html",
+    "icfes": 290,
+    "estado": "Con opciones",
+    "rank": 27
+  },
+  {
+    "nombre": "Campo Salazar Diego Armando",
+    "apellido": "Campo Salazar Diego Armando",
+    "archivo": "reportes_externo/028-Campo-Salazar-Diego-Armando.html",
+    "icfes": 288,
+    "estado": "Con opciones",
+    "rank": 28
+  },
+  {
+    "nombre": "Estrada Garces Lauren Vanessa",
+    "apellido": "Estrada Garces Lauren Vanessa",
+    "archivo": "reportes_externo/029-Estrada-Garces-Lauren-Vanessa.html",
+    "icfes": 287,
+    "estado": "Con opciones",
+    "rank": 29
+  },
+  {
+    "nombre": "Calle Moreno Jose Albeiro",
+    "apellido": "Calle Moreno Jose Albeiro",
+    "archivo": "reportes_externo/030-Calle-Moreno-Jose-Albeiro.html",
+    "icfes": 286,
+    "estado": "Con opciones",
+    "rank": 30
+  },
+  {
+    "nombre": "Salazar Oyola Yalena Sofia",
+    "apellido": "Salazar Oyola Yalena Sofia",
+    "archivo": "reportes_externo/031-Salazar-Oyola-Yalena-Sofia.html",
+    "icfes": 286,
+    "estado": "Con opciones",
+    "rank": 31
+  },
+  {
+    "nombre": "Maldonado Villalba Melani Alejandra",
+    "apellido": "Maldonado Villalba Melani Alejandra",
+    "archivo": "reportes_externo/032-Maldonado-Villalba-Melani-Alejandra.html",
+    "icfes": 281,
+    "estado": "Con opciones",
+    "rank": 32
+  },
+  {
+    "nombre": "Baquero Diaz Nicol Stefany",
+    "apellido": "Baquero Diaz Nicol Stefany",
+    "archivo": "reportes_externo/033-Baquero-Diaz-Nicol-Stefany.html",
+    "icfes": 280,
+    "estado": "Con opciones",
+    "rank": 33
+  },
+  {
+    "nombre": "Fernandez Madrid Ana Sofia",
+    "apellido": "Fernandez Madrid Ana Sofia",
+    "archivo": "reportes_externo/034-Fernandez-Madrid-Ana-Sofia.html",
+    "icfes": 280,
+    "estado": "Con opciones",
+    "rank": 34
+  },
+  {
+    "nombre": "Mestra Ardila Ariathna",
+    "apellido": "Mestra Ardila Ariathna",
+    "archivo": "reportes_externo/035-Mestra-Ardila-Ariathna.html",
+    "icfes": 278,
+    "estado": "Con opciones",
+    "rank": 35
+  },
+  {
+    "nombre": "Campo Rivera Madeline",
+    "apellido": "Campo Rivera Madeline",
+    "archivo": "reportes_externo/036-Campo-Rivera-Madeline.html",
+    "icfes": 277,
+    "estado": "Con opciones",
+    "rank": 36
+  },
+  {
+    "nombre": "Florez Cano Isabella",
+    "apellido": "Florez Cano Isabella",
+    "archivo": "reportes_externo/037-Florez-Cano-Isabella.html",
+    "icfes": 276,
+    "estado": "Con opciones",
+    "rank": 37
+  },
+  {
+    "nombre": "Castillo Ricardo Isabel",
+    "apellido": "Castillo Ricardo Isabel",
+    "archivo": "reportes_externo/038-Castillo-Ricardo-Isabel.html",
+    "icfes": 275,
+    "estado": "Con opciones",
+    "rank": 38
+  },
+  {
+    "nombre": "Acosta Bueno Keiner",
+    "apellido": "Acosta Bueno Keiner",
+    "archivo": "reportes_externo/039-Acosta-Bueno-Keiner.html",
+    "icfes": 275,
+    "estado": "Con opciones",
+    "rank": 39
+  },
+  {
+    "nombre": "Murillo Buelvas Camilo Andres",
+    "apellido": "Murillo Buelvas Camilo Andres",
+    "archivo": "reportes_externo/040-Murillo-Buelvas-Camilo-Andres.html",
+    "icfes": 274,
+    "estado": "Con opciones",
+    "rank": 40
+  },
+  {
+    "nombre": "Argumedo Salas Daily Alejandra",
+    "apellido": "Argumedo Salas Daily Alejandra",
+    "archivo": "reportes_externo/041-Argumedo-Salas-Daily-Alejandra.html",
+    "icfes": 272,
+    "estado": "Con opciones",
+    "rank": 41
+  },
+  {
+    "nombre": "Carvajal Diaz Juan Andres",
+    "apellido": "Carvajal Diaz Juan Andres",
+    "archivo": "reportes_externo/042-Carvajal-Diaz-Juan-Andres.html",
+    "icfes": 272,
+    "estado": "Con opciones",
+    "rank": 42
+  },
+  {
+    "nombre": "Zea Camaño Yesid Andres",
+    "apellido": "Zea Camaño Yesid Andres",
+    "archivo": "reportes_externo/043-Zea-Camano-Yesid-Andres.html",
+    "icfes": 271,
+    "estado": "Con opciones",
+    "rank": 43
+  },
+  {
+    "nombre": "Espitia Morales Victor Andres",
+    "apellido": "Espitia Morales Victor Andres",
+    "archivo": "reportes_externo/044-Espitia-Morales-Victor-Andres.html",
+    "icfes": 271,
+    "estado": "Con opciones",
+    "rank": 44
+  },
+  {
+    "nombre": "Fino Ricardo Jesus Orlando",
+    "apellido": "Fino Ricardo Jesus Orlando",
+    "archivo": "reportes_externo/045-Fino-Ricardo-Jesus-Orlando.html",
+    "icfes": 270,
+    "estado": "Con opciones",
+    "rank": 45
+  },
+  {
+    "nombre": "Pereira Lopez Elizabeth",
+    "apellido": "Pereira Lopez Elizabeth",
+    "archivo": "reportes_externo/046-Pereira-Lopez-Elizabeth.html",
+    "icfes": 270,
+    "estado": "Con opciones",
+    "rank": 46
+  },
+  {
+    "nombre": "Torres Mendoza Sara Marcela",
+    "apellido": "Torres Mendoza Sara Marcela",
+    "archivo": "reportes_externo/047-Torres-Mendoza-Sara-Marcela.html",
+    "icfes": 269,
+    "estado": "Con opciones",
+    "rank": 47
+  },
+  {
+    "nombre": "Banquet Mendoza Juliana",
+    "apellido": "Banquet Mendoza Juliana",
+    "archivo": "reportes_externo/048-Banquet-Mendoza-Juliana.html",
+    "icfes": 268,
+    "estado": "Con opciones",
+    "rank": 48
+  },
+  {
+    "nombre": "Ceballos Zabala Santiago",
+    "apellido": "Ceballos Zabala Santiago",
+    "archivo": "reportes_externo/049-Ceballos-Zabala-Santiago.html",
+    "icfes": 268,
+    "estado": "Con opciones",
+    "rank": 49
+  },
+  {
+    "nombre": "Pasos Sotelo Maria De Los Angeles",
+    "apellido": "Pasos Sotelo Maria De Los Angeles",
+    "archivo": "reportes_externo/050-Pasos-Sotelo-Maria-De-Los-Angeles.html",
+    "icfes": 267,
+    "estado": "Con opciones",
+    "rank": 50
+  },
+  {
+    "nombre": "Florez Martinez Juan Esteban",
+    "apellido": "Florez Martinez Juan Esteban",
+    "archivo": "reportes_externo/051-Florez-Martinez-Juan-Esteban.html",
+    "icfes": 265,
+    "estado": "Con opciones",
+    "rank": 51
+  },
+  {
+    "nombre": "Sanchez Monterrosa Natalia",
+    "apellido": "Sanchez Monterrosa Natalia",
+    "archivo": "reportes_externo/052-Sanchez-Monterrosa-Natalia.html",
+    "icfes": 264,
+    "estado": "Con opciones",
+    "rank": 52
+  },
+  {
+    "nombre": "Camargo Urango Andrea Liseth",
+    "apellido": "Camargo Urango Andrea Liseth",
+    "archivo": "reportes_externo/053-Camargo-Urango-Andrea-Liseth.html",
+    "icfes": 262,
+    "estado": "Con opciones",
+    "rank": 53
+  },
+  {
+    "nombre": "Rodriguez Vertel Patricia Del Carmen",
+    "apellido": "Rodriguez Vertel Patricia Del Carmen",
+    "archivo": "reportes_externo/054-Rodriguez-Vertel-Patricia-Del-Carmen.html",
+    "icfes": 261,
+    "estado": "Con opciones",
+    "rank": 54
+  },
+  {
+    "nombre": "Londoño Barrios Esther Maria",
+    "apellido": "Londoño Barrios Esther Maria",
+    "archivo": "reportes_externo/055-Londono-Barrios-Esther-Maria.html",
+    "icfes": 261,
+    "estado": "Con opciones",
+    "rank": 55
+  },
+  {
+    "nombre": "Estremor Perez Valentina",
+    "apellido": "Estremor Perez Valentina",
+    "archivo": "reportes_externo/056-Estremor-Perez-Valentina.html",
+    "icfes": 261,
+    "estado": "Con opciones",
+    "rank": 56
+  },
+  {
+    "nombre": "Pimienta Soto Saray Camila",
+    "apellido": "Pimienta Soto Saray Camila",
+    "archivo": "reportes_externo/057-Pimienta-Soto-Saray-Camila.html",
+    "icfes": 261,
+    "estado": "Con opciones",
+    "rank": 57
+  },
+  {
+    "nombre": "Meza Aviles Jaider David",
+    "apellido": "Meza Aviles Jaider David",
+    "archivo": "reportes_externo/058-Meza-Aviles-Jaider-David.html",
+    "icfes": 261,
+    "estado": "Con opciones",
+    "rank": 58
+  },
+  {
+    "nombre": "Luna Perez Eliseo",
+    "apellido": "Luna Perez Eliseo",
+    "archivo": "reportes_externo/059-Luna-Perez-Eliseo.html",
+    "icfes": 260,
+    "estado": "Con opciones",
+    "rank": 59
+  },
+  {
+    "nombre": "Zarza Hoyos Alejandro",
+    "apellido": "Zarza Hoyos Alejandro",
+    "archivo": "reportes_externo/060-Zarza-Hoyos-Alejandro.html",
+    "icfes": 258,
+    "estado": "Con opciones",
+    "rank": 60
+  },
+  {
+    "nombre": "Ramirez Morales Yady Isabel",
+    "apellido": "Ramirez Morales Yady Isabel",
+    "archivo": "reportes_externo/061-Ramirez-Morales-Yady-Isabel.html",
+    "icfes": 258,
+    "estado": "Con opciones",
+    "rank": 61
+  },
+  {
+    "nombre": "Benitez Barrios Yojan David",
+    "apellido": "Benitez Barrios Yojan David",
+    "archivo": "reportes_externo/062-Benitez-Barrios-Yojan-David.html",
+    "icfes": 257,
+    "estado": "Con opciones",
+    "rank": 62
+  },
+  {
+    "nombre": "Salgado Mazo Mariangel",
+    "apellido": "Salgado Mazo Mariangel",
+    "archivo": "reportes_externo/063-Salgado-Mazo-Mariangel.html",
+    "icfes": 257,
+    "estado": "Con opciones",
+    "rank": 63
+  },
+  {
+    "nombre": "Pastrana Romero Juliana Andrea",
+    "apellido": "Pastrana Romero Juliana Andrea",
+    "archivo": "reportes_externo/064-Pastrana-Romero-Juliana-Andrea.html",
+    "icfes": 255,
+    "estado": "Con opciones",
+    "rank": 64
+  },
+  {
+    "nombre": "Colon Serrano Luisa Fernanda",
+    "apellido": "Colon Serrano Luisa Fernanda",
+    "archivo": "reportes_externo/065-Colon-Serrano-Luisa-Fernanda.html",
+    "icfes": 254,
+    "estado": "Con opciones",
+    "rank": 65
+  },
+  {
+    "nombre": "Herrera Camaño Isabella Valentina",
+    "apellido": "Herrera Camaño Isabella Valentina",
+    "archivo": "reportes_externo/066-Herrera-Camano-Isabella-Valentina.html",
+    "icfes": 254,
+    "estado": "Con opciones",
+    "rank": 66
+  },
+  {
+    "nombre": "Castillo Camargo Didier Esneider",
+    "apellido": "Castillo Camargo Didier Esneider",
+    "archivo": "reportes_externo/067-Castillo-Camargo-Didier-Esneider.html",
+    "icfes": 253,
+    "estado": "Con opciones",
+    "rank": 67
+  },
+  {
+    "nombre": "Martinez Balbera Angelica",
+    "apellido": "Martinez Balbera Angelica",
+    "archivo": "reportes_externo/068-Martinez-Balbera-Angelica.html",
+    "icfes": 253,
+    "estado": "Con opciones",
+    "rank": 68
+  },
+  {
+    "nombre": "Benitez Baltazar Luisa Fernanda",
+    "apellido": "Benitez Baltazar Luisa Fernanda",
+    "archivo": "reportes_externo/069-Benitez-Baltazar-Luisa-Fernanda.html",
+    "icfes": 252,
+    "estado": "Con opciones",
+    "rank": 69
+  },
+  {
+    "nombre": "Barrios Sotelo Matias Andres",
+    "apellido": "Barrios Sotelo Matias Andres",
+    "archivo": "reportes_externo/070-Barrios-Sotelo-Matias-Andres.html",
+    "icfes": 251,
+    "estado": "Con opciones",
+    "rank": 70
+  },
+  {
+    "nombre": "Sola Martinez Dioni",
+    "apellido": "Sola Martinez Dioni",
+    "archivo": "reportes_externo/071-Sola-Martinez-Dioni.html",
+    "icfes": 251,
+    "estado": "Con opciones",
+    "rank": 71
+  },
+  {
+    "nombre": "Correa Oviedo Taliana",
+    "apellido": "Correa Oviedo Taliana",
+    "archivo": "reportes_externo/072-Correa-Oviedo-Taliana.html",
+    "icfes": 250,
+    "estado": "Con opciones",
+    "rank": 72
+  },
+  {
+    "nombre": "Perez Moreno Katalina",
+    "apellido": "Perez Moreno Katalina",
+    "archivo": "reportes_externo/073-Perez-Moreno-Katalina.html",
+    "icfes": 250,
+    "estado": "Con opciones",
+    "rank": 73
+  },
+  {
+    "nombre": "Mendoza Hoyos David",
+    "apellido": "Mendoza Hoyos David",
+    "archivo": "reportes_externo/074-Mendoza-Hoyos-David.html",
+    "icfes": 249,
+    "estado": "Con opciones",
+    "rank": 74
+  },
+  {
+    "nombre": "Aguas Atencia Valentina",
+    "apellido": "Aguas Atencia Valentina",
+    "archivo": "reportes_externo/075-Aguas-Atencia-Valentina.html",
+    "icfes": 248,
+    "estado": "Con opciones",
+    "rank": 75
+  },
+  {
+    "nombre": "Tejada Guerrero Luis Fernando",
+    "apellido": "Tejada Guerrero Luis Fernando",
+    "archivo": "reportes_externo/076-Tejada-Guerrero-Luis-Fernando.html",
+    "icfes": 246,
+    "estado": "A seguir mejorando",
+    "rank": 76
+  },
+  {
+    "nombre": "Rodiño Vallejo Fredy Jose",
+    "apellido": "Rodiño Vallejo Fredy Jose",
+    "archivo": "reportes_externo/077-Rodino-Vallejo-Fredy-Jose.html",
+    "icfes": 246,
+    "estado": "A seguir mejorando",
+    "rank": 77
+  },
+  {
+    "nombre": "Martinez Pacheco Andres Felipe",
+    "apellido": "Martinez Pacheco Andres Felipe",
+    "archivo": "reportes_externo/078-Martinez-Pacheco-Andres-Felipe.html",
+    "icfes": 245,
+    "estado": "A seguir mejorando",
+    "rank": 78
+  },
+  {
+    "nombre": "Castro Rivera Biana Liceth",
+    "apellido": "Castro Rivera Biana Liceth",
+    "archivo": "reportes_externo/079-Castro-Rivera-Biana-Liceth.html",
+    "icfes": 244,
+    "estado": "A seguir mejorando",
+    "rank": 79
+  },
+  {
+    "nombre": "Espitia Castro Naiderlin",
+    "apellido": "Espitia Castro Naiderlin",
+    "archivo": "reportes_externo/080-Espitia-Castro-Naiderlin.html",
+    "icfes": 244,
+    "estado": "A seguir mejorando",
+    "rank": 80
+  },
+  {
+    "nombre": "Perez Vergara Juliana",
+    "apellido": "Perez Vergara Juliana",
+    "archivo": "reportes_externo/081-Perez-Vergara-Juliana.html",
+    "icfes": 244,
+    "estado": "A seguir mejorando",
+    "rank": 81
+  },
+  {
+    "nombre": "Agamez Zabala Nicolas Elias",
+    "apellido": "Agamez Zabala Nicolas Elias",
+    "archivo": "reportes_externo/082-Agamez-Zabala-Nicolas-Elias.html",
+    "icfes": 241,
+    "estado": "A seguir mejorando",
+    "rank": 82
+  },
+  {
+    "nombre": "Peñates Garavito Melani",
+    "apellido": "Peñates Garavito Melani",
+    "archivo": "reportes_externo/083-Penates-Garavito-Melani.html",
+    "icfes": 241,
+    "estado": "A seguir mejorando",
+    "rank": 83
+  },
+  {
+    "nombre": "Alzate Carmona Jhojan Stiven",
+    "apellido": "Alzate Carmona Jhojan Stiven",
+    "archivo": "reportes_externo/084-Alzate-Carmona-Jhojan-Stiven.html",
+    "icfes": 240,
+    "estado": "A seguir mejorando",
+    "rank": 84
+  },
+  {
+    "nombre": "Berrio Mendoza Taliana",
+    "apellido": "Berrio Mendoza Taliana",
+    "archivo": "reportes_externo/085-Berrio-Mendoza-Taliana.html",
+    "icfes": 240,
+    "estado": "A seguir mejorando",
+    "rank": 85
+  },
+  {
+    "nombre": "Contreras Garcia Juliana",
+    "apellido": "Contreras Garcia Juliana",
+    "archivo": "reportes_externo/086-Contreras-Garcia-Juliana.html",
+    "icfes": 240,
+    "estado": "A seguir mejorando",
+    "rank": 86
+  },
+  {
+    "nombre": "Tuiran Moreno Enan Joaquin",
+    "apellido": "Tuiran Moreno Enan Joaquin",
+    "archivo": "reportes_externo/087-Tuiran-Moreno-Enan-Joaquin.html",
+    "icfes": 240,
+    "estado": "A seguir mejorando",
+    "rank": 87
+  },
+  {
+    "nombre": "Hernandez Diaz Gabriela",
+    "apellido": "Hernandez Diaz Gabriela",
+    "archivo": "reportes_externo/088-Hernandez-Diaz-Gabriela.html",
+    "icfes": 238,
+    "estado": "A seguir mejorando",
+    "rank": 88
+  },
+  {
+    "nombre": "Hernandez Pastrana Alys Patricia",
+    "apellido": "Hernandez Pastrana Alys Patricia",
+    "archivo": "reportes_externo/089-Hernandez-Pastrana-Alys-Patricia.html",
+    "icfes": 237,
+    "estado": "A seguir mejorando",
+    "rank": 89
+  },
+  {
+    "nombre": "Diaz Castro Andres",
+    "apellido": "Diaz Castro Andres",
+    "archivo": "reportes_externo/090-Diaz-Castro-Andres.html",
+    "icfes": 237,
+    "estado": "A seguir mejorando",
+    "rank": 90
+  },
+  {
+    "nombre": "Zuñiga Osorio Liz Emily",
+    "apellido": "Zuñiga Osorio Liz Emily",
+    "archivo": "reportes_externo/091-Zuniga-Osorio-Liz-Emily.html",
+    "icfes": 234,
+    "estado": "A seguir mejorando",
+    "rank": 91
+  },
+  {
+    "nombre": "Monterrosa Casarrubia Kelly Johana",
+    "apellido": "Monterrosa Casarrubia Kelly Johana",
+    "archivo": "reportes_externo/092-Monterrosa-Casarrubia-Kelly-Johana.html",
+    "icfes": 234,
+    "estado": "A seguir mejorando",
+    "rank": 92
+  },
+  {
+    "nombre": "Madera Pereira Edith Natalia",
+    "apellido": "Madera Pereira Edith Natalia",
+    "archivo": "reportes_externo/093-Madera-Pereira-Edith-Natalia.html",
+    "icfes": 234,
+    "estado": "A seguir mejorando",
+    "rank": 93
+  },
+  {
+    "nombre": "Herrera Gil Skarlit Yhiret",
+    "apellido": "Herrera Gil Skarlit Yhiret",
+    "archivo": "reportes_externo/094-Herrera-Gil-Skarlit-Yhiret.html",
+    "icfes": 233,
+    "estado": "A seguir mejorando",
+    "rank": 94
+  },
+  {
+    "nombre": "Mercado Perez Juan Felipe",
+    "apellido": "Mercado Perez Juan Felipe",
+    "archivo": "reportes_externo/095-Mercado-Perez-Juan-Felipe.html",
+    "icfes": 233,
+    "estado": "A seguir mejorando",
+    "rank": 95
+  },
+  {
+    "nombre": "Reyes Cordoba Hita Fernanda",
+    "apellido": "Reyes Cordoba Hita Fernanda",
+    "archivo": "reportes_externo/096-Reyes-Cordoba-Hita-Fernanda.html",
+    "icfes": 232,
+    "estado": "A seguir mejorando",
+    "rank": 96
+  },
+  {
+    "nombre": "Guerra Villa Stefania",
+    "apellido": "Guerra Villa Stefania",
+    "archivo": "reportes_externo/097-Guerra-Villa-Stefania.html",
+    "icfes": 231,
+    "estado": "A seguir mejorando",
+    "rank": 97
+  },
+  {
+    "nombre": "Correa Dominguez Valeri",
+    "apellido": "Correa Dominguez Valeri",
+    "archivo": "reportes_externo/098-Correa-Dominguez-Valeri.html",
+    "icfes": 230,
+    "estado": "A seguir mejorando",
+    "rank": 98
+  },
+  {
+    "nombre": "De Leon Pertuz Eliecer De Jesus",
+    "apellido": "De Leon Pertuz Eliecer De Jesus",
+    "archivo": "reportes_externo/099-De-Leon-Pertuz-Eliecer-De-Jesus.html",
+    "icfes": 230,
+    "estado": "A seguir mejorando",
+    "rank": 99
+  },
+  {
+    "nombre": "Pastrana Rodriguez Maria Angelica",
+    "apellido": "Pastrana Rodriguez Maria Angelica",
+    "archivo": "reportes_externo/100-Pastrana-Rodriguez-Maria-Angelica.html",
+    "icfes": 230,
+    "estado": "A seguir mejorando",
+    "rank": 100
+  },
+  {
+    "nombre": "Mercado Tirado Danilsa",
+    "apellido": "Mercado Tirado Danilsa",
+    "archivo": "reportes_externo/101-Mercado-Tirado-Danilsa.html",
+    "icfes": 225,
+    "estado": "A seguir mejorando",
+    "rank": 101
+  },
+  {
+    "nombre": "Hernandez Hoyos Keilly Michelle",
+    "apellido": "Hernandez Hoyos Keilly Michelle",
+    "archivo": "reportes_externo/102-Hernandez-Hoyos-Keilly-Michelle.html",
+    "icfes": 225,
+    "estado": "A seguir mejorando",
+    "rank": 102
+  },
+  {
+    "nombre": "Holguin Cardeño Jimena Andrea",
+    "apellido": "Holguin Cardeño Jimena Andrea",
+    "archivo": "reportes_externo/103-Holguin-Cardeno-Jimena-Andrea.html",
+    "icfes": 224,
+    "estado": "A seguir mejorando",
+    "rank": 103
+  },
+  {
+    "nombre": "Perez Cantero Maria Jose",
+    "apellido": "Perez Cantero Maria Jose",
+    "archivo": "reportes_externo/104-Perez-Cantero-Maria-Jose.html",
+    "icfes": 224,
+    "estado": "A seguir mejorando",
+    "rank": 104
+  },
+  {
+    "nombre": "Alvarado Martinez Juliana",
+    "apellido": "Alvarado Martinez Juliana",
+    "archivo": "reportes_externo/105-Alvarado-Martinez-Juliana.html",
+    "icfes": 223,
+    "estado": "A seguir mejorando",
+    "rank": 105
+  },
+  {
+    "nombre": "Romero Zuñiga Cristiano Ronaldo",
+    "apellido": "Romero Zuñiga Cristiano Ronaldo",
+    "archivo": "reportes_externo/106-Romero-Zuniga-Cristiano-Ronaldo.html",
+    "icfes": 223,
+    "estado": "A seguir mejorando",
+    "rank": 106
+  },
+  {
+    "nombre": "Canole Vasquez Nicolas Elias",
+    "apellido": "Canole Vasquez Nicolas Elias",
+    "archivo": "reportes_externo/107-Canole-Vasquez-Nicolas-Elias.html",
+    "icfes": 222,
+    "estado": "A seguir mejorando",
+    "rank": 107
+  },
+  {
+    "nombre": "Rodriguez Velasquez Samuel Alexander",
+    "apellido": "Rodriguez Velasquez Samuel Alexander",
+    "archivo": "reportes_externo/108-Rodriguez-Velasquez-Samuel-Alexander.html",
+    "icfes": 222,
+    "estado": "A seguir mejorando",
+    "rank": 108
+  },
+  {
+    "nombre": "Ramos Calle Maria Alejandra",
+    "apellido": "Ramos Calle Maria Alejandra",
+    "archivo": "reportes_externo/109-Ramos-Calle-Maria-Alejandra.html",
+    "icfes": 222,
+    "estado": "A seguir mejorando",
+    "rank": 109
+  },
+  {
+    "nombre": "Escobar Vargas Karol Dayana",
+    "apellido": "Escobar Vargas Karol Dayana",
+    "archivo": "reportes_externo/110-Escobar-Vargas-Karol-Dayana.html",
+    "icfes": 222,
+    "estado": "A seguir mejorando",
+    "rank": 110
+  },
+  {
+    "nombre": "Marchena Barrero Carlos Daniel",
+    "apellido": "Marchena Barrero Carlos Daniel",
+    "archivo": "reportes_externo/111-Marchena-Barrero-Carlos-Daniel.html",
+    "icfes": 222,
+    "estado": "A seguir mejorando",
+    "rank": 111
+  },
+  {
+    "nombre": "Sampayo Alvis Ronald",
+    "apellido": "Sampayo Alvis Ronald",
+    "archivo": "reportes_externo/112-Sampayo-Alvis-Ronald.html",
+    "icfes": 221,
+    "estado": "A seguir mejorando",
+    "rank": 112
+  },
+  {
+    "nombre": "Hernandez Alvarez Elemi",
+    "apellido": "Hernandez Alvarez Elemi",
+    "archivo": "reportes_externo/113-Hernandez-Alvarez-Elemi.html",
+    "icfes": 219,
+    "estado": "A seguir mejorando",
+    "rank": 113
+  },
+  {
+    "nombre": "Ramos Beleño Yisel Karolina",
+    "apellido": "Ramos Beleño Yisel Karolina",
+    "archivo": "reportes_externo/114-Ramos-Beleno-Yisel-Karolina.html",
+    "icfes": 216,
+    "estado": "A seguir mejorando",
+    "rank": 114
+  },
+  {
+    "nombre": "Salgado Quintero Luis Eduardo",
+    "apellido": "Salgado Quintero Luis Eduardo",
+    "archivo": "reportes_externo/115-Salgado-Quintero-Luis-Eduardo.html",
+    "icfes": 216,
+    "estado": "A seguir mejorando",
+    "rank": 115
+  },
+  {
+    "nombre": "Sotelo Torres Camila Andrea",
+    "apellido": "Sotelo Torres Camila Andrea",
+    "archivo": "reportes_externo/116-Sotelo-Torres-Camila-Andrea.html",
+    "icfes": 215,
+    "estado": "A seguir mejorando",
+    "rank": 116
+  },
+  {
+    "nombre": "Mesa Rivera Michell Andrea",
+    "apellido": "Mesa Rivera Michell Andrea",
+    "archivo": "reportes_externo/117-Mesa-Rivera-Michell-Andrea.html",
+    "icfes": 214,
+    "estado": "A seguir mejorando",
+    "rank": 117
+  },
+  {
+    "nombre": "Gomez Hoyos Tailin Maria",
+    "apellido": "Gomez Hoyos Tailin Maria",
+    "archivo": "reportes_externo/118-Gomez-Hoyos-Tailin-Maria.html",
+    "icfes": 210,
+    "estado": "A seguir mejorando",
+    "rank": 118
+  },
+  {
+    "nombre": "Fabra Vazquez Samuel David",
+    "apellido": "Fabra Vazquez Samuel David",
+    "archivo": "reportes_externo/119-Fabra-Vazquez-Samuel-David.html",
+    "icfes": 210,
+    "estado": "A seguir mejorando",
+    "rank": 119
+  },
+  {
+    "nombre": "Rivera Silva Leonel Andres",
+    "apellido": "Rivera Silva Leonel Andres",
+    "archivo": "reportes_externo/120-Rivera-Silva-Leonel-Andres.html",
+    "icfes": 210,
+    "estado": "A seguir mejorando",
+    "rank": 120
+  },
+  {
+    "nombre": "Ruiz Perez Kevin Andres",
+    "apellido": "Ruiz Perez Kevin Andres",
+    "archivo": "reportes_externo/121-Ruiz-Perez-Kevin-Andres.html",
+    "icfes": 208,
+    "estado": "A seguir mejorando",
+    "rank": 121
+  },
+  {
+    "nombre": "Heredia Moreno Ornella",
+    "apellido": "Heredia Moreno Ornella",
+    "archivo": "reportes_externo/122-Heredia-Moreno-Ornella.html",
+    "icfes": 207,
+    "estado": "A seguir mejorando",
+    "rank": 122
+  },
+  {
+    "nombre": "Romero Sierra Didien Matias",
+    "apellido": "Romero Sierra Didien Matias",
+    "archivo": "reportes_externo/123-Romero-Sierra-Didien-Matias.html",
+    "icfes": 207,
+    "estado": "A seguir mejorando",
+    "rank": 123
+  },
+  {
+    "nombre": "Julio Hernandez Maria Angel",
+    "apellido": "Julio Hernandez Maria Angel",
+    "archivo": "reportes_externo/124-Julio-Hernandez-Maria-Angel.html",
+    "icfes": 204,
+    "estado": "A seguir mejorando",
+    "rank": 124
+  },
+  {
+    "nombre": "Hernandez Hoyos Maria Angel",
+    "apellido": "Hernandez Hoyos Maria Angel",
+    "archivo": "reportes_externo/125-Hernandez-Hoyos-Maria-Angel.html",
+    "icfes": 203,
+    "estado": "A seguir mejorando",
+    "rank": 125
+  },
+  {
+    "nombre": "Gonzalez Calao Ana Sofia",
+    "apellido": "Gonzalez Calao Ana Sofia",
+    "archivo": "reportes_externo/126-Gonzalez-Calao-Ana-Sofia.html",
+    "icfes": 202,
+    "estado": "A seguir mejorando",
+    "rank": 126
+  },
+  {
+    "nombre": "Perez De Hoyos Luz Elena",
+    "apellido": "Perez De Hoyos Luz Elena",
+    "archivo": "reportes_externo/127-Perez-De-Hoyos-Luz-Elena.html",
+    "icfes": 199,
+    "estado": "A seguir mejorando",
+    "rank": 127
+  },
+  {
+    "nombre": "Gutierrez Arrieta Anys Andrea",
+    "apellido": "Gutierrez Arrieta Anys Andrea",
+    "archivo": "reportes_externo/128-Gutierrez-Arrieta-Anys-Andrea.html",
+    "icfes": 199,
+    "estado": "A seguir mejorando",
+    "rank": 128
+  },
+  {
+    "nombre": "Montalvo Soto Monica Paola",
+    "apellido": "Montalvo Soto Monica Paola",
+    "archivo": "reportes_externo/129-Montalvo-Soto-Monica-Paola.html",
+    "icfes": 199,
+    "estado": "A seguir mejorando",
+    "rank": 129
+  },
+  {
+    "nombre": "Garcia Guerra Maria Jose",
+    "apellido": "Garcia Guerra Maria Jose",
+    "archivo": "reportes_externo/130-Garcia-Guerra-Maria-Jose.html",
+    "icfes": 197,
+    "estado": "A seguir mejorando",
+    "rank": 130
+  },
+  {
+    "nombre": "Salgado Verona Katy Milena",
+    "apellido": "Salgado Verona Katy Milena",
+    "archivo": "reportes_externo/131-Salgado-Verona-Katy-Milena.html",
+    "icfes": 197,
+    "estado": "A seguir mejorando",
+    "rank": 131
+  },
+  {
+    "nombre": "Arrieta Sierra Valentina",
+    "apellido": "Arrieta Sierra Valentina",
+    "archivo": "reportes_externo/132-Arrieta-Sierra-Valentina.html",
+    "icfes": 196,
+    "estado": "A seguir mejorando",
+    "rank": 132
+  },
+  {
+    "nombre": "Coronado Ojeda Gabriela",
+    "apellido": "Coronado Ojeda Gabriela",
+    "archivo": "reportes_externo/133-Coronado-Ojeda-Gabriela.html",
+    "icfes": 196,
+    "estado": "A seguir mejorando",
+    "rank": 133
+  },
+  {
+    "nombre": "Padilla Mora Diego",
+    "apellido": "Padilla Mora Diego",
+    "archivo": "reportes_externo/134-Padilla-Mora-Diego.html",
+    "icfes": 196,
+    "estado": "A seguir mejorando",
+    "rank": 134
+  },
+  {
+    "nombre": "Hernandez Peñates Enis Yulisa",
+    "apellido": "Hernandez Peñates Enis Yulisa",
+    "archivo": "reportes_externo/135-Hernandez-Penates-Enis-Yulisa.html",
+    "icfes": 195,
+    "estado": "A seguir mejorando",
+    "rank": 135
+  },
+  {
+    "nombre": "Gamarra Lopez Juan Camilo",
+    "apellido": "Gamarra Lopez Juan Camilo",
+    "archivo": "reportes_externo/136-Gamarra-Lopez-Juan-Camilo.html",
+    "icfes": 195,
+    "estado": "A seguir mejorando",
+    "rank": 136
+  },
+  {
+    "nombre": "Coronado Palencia Esteban David",
+    "apellido": "Coronado Palencia Esteban David",
+    "archivo": "reportes_externo/137-Coronado-Palencia-Esteban-David.html",
+    "icfes": 192,
+    "estado": "A seguir mejorando",
+    "rank": 137
+  },
+  {
+    "nombre": "Rodriguez Florez Yuris Paola",
+    "apellido": "Rodriguez Florez Yuris Paola",
+    "archivo": "reportes_externo/138-Rodriguez-Florez-Yuris-Paola.html",
+    "icfes": 192,
+    "estado": "A seguir mejorando",
+    "rank": 138
+  },
+  {
+    "nombre": "Fuentes Mendoza Hector Luis",
+    "apellido": "Fuentes Mendoza Hector Luis",
+    "archivo": "reportes_externo/139-Fuentes-Mendoza-Hector-Luis.html",
+    "icfes": 192,
+    "estado": "A seguir mejorando",
+    "rank": 139
+  },
+  {
+    "nombre": "Mantilla Espitia Andy Paola",
+    "apellido": "Mantilla Espitia Andy Paola",
+    "archivo": "reportes_externo/140-Mantilla-Espitia-Andy-Paola.html",
+    "icfes": 191,
+    "estado": "A seguir mejorando",
+    "rank": 140
+  },
+  {
+    "nombre": "Villadiego Jimenez Jaiver",
+    "apellido": "Villadiego Jimenez Jaiver",
+    "archivo": "reportes_externo/141-Villadiego-Jimenez-Jaiver.html",
+    "icfes": 190,
+    "estado": "A seguir mejorando",
+    "rank": 141
+  },
+  {
+    "nombre": "Arrieta Jaramillo Yoiner",
+    "apellido": "Arrieta Jaramillo Yoiner",
+    "archivo": "reportes_externo/142-Arrieta-Jaramillo-Yoiner.html",
+    "icfes": 188,
+    "estado": "A seguir mejorando",
+    "rank": 142
+  },
+  {
+    "nombre": "Mestra Avila Juan David",
+    "apellido": "Mestra Avila Juan David",
+    "archivo": "reportes_externo/143-Mestra-Avila-Juan-David.html",
+    "icfes": 187,
+    "estado": "A seguir mejorando",
+    "rank": 143
+  },
+  {
+    "nombre": "Castillo Suarez Yennifer",
+    "apellido": "Castillo Suarez Yennifer",
+    "archivo": "reportes_externo/144-Castillo-Suarez-Yennifer.html",
+    "icfes": 185,
+    "estado": "A seguir mejorando",
+    "rank": 144
+  },
+  {
+    "nombre": "Alarcon Mendez Angie Paola",
+    "apellido": "Alarcon Mendez Angie Paola",
+    "archivo": "reportes_externo/145-Alarcon-Mendez-Angie-Paola.html",
+    "icfes": 183,
+    "estado": "A seguir mejorando",
+    "rank": 145
+  },
+  {
+    "nombre": "Torres Cadrasco Yaira Andrea",
+    "apellido": "Torres Cadrasco Yaira Andrea",
+    "archivo": "reportes_externo/146-Torres-Cadrasco-Yaira-Andrea.html",
+    "icfes": 179,
+    "estado": "A seguir mejorando",
+    "rank": 146
+  },
+  {
+    "nombre": "Gomez Muñoz Maria Carolina",
+    "apellido": "Gomez Muñoz Maria Carolina",
+    "archivo": "reportes_externo/147-Gomez-Munoz-Maria-Carolina.html",
+    "icfes": 179,
+    "estado": "A seguir mejorando",
+    "rank": 147
+  },
+  {
+    "nombre": "Carrasco Montiel Kevin David",
+    "apellido": "Carrasco Montiel Kevin David",
+    "archivo": "reportes_externo/148-Carrasco-Montiel-Kevin-David.html",
+    "icfes": 178,
+    "estado": "A seguir mejorando",
+    "rank": 148
+  },
+  {
+    "nombre": "Sala Solis Yonier Andres",
+    "apellido": "Sala Solis Yonier Andres",
+    "archivo": "reportes_externo/149-Sala-Solis-Yonier-Andres.html",
+    "icfes": 178,
+    "estado": "A seguir mejorando",
+    "rank": 149
+  },
+  {
+    "nombre": "Romero Acosta Genesis",
+    "apellido": "Romero Acosta Genesis",
+    "archivo": "reportes_externo/150-Romero-Acosta-Genesis.html",
+    "icfes": 178,
+    "estado": "A seguir mejorando",
+    "rank": 150
+  },
+  {
+    "nombre": "Florez Hernandez Mariana",
+    "apellido": "Florez Hernandez Mariana",
+    "archivo": "reportes_externo/151-Florez-Hernandez-Mariana.html",
+    "icfes": 178,
+    "estado": "A seguir mejorando",
+    "rank": 151
+  },
+  {
+    "nombre": "Florez Londoño John Esteban",
+    "apellido": "Florez Londoño John Esteban",
+    "archivo": "reportes_externo/152-Florez-Londono-John-Esteban.html",
+    "icfes": 177,
+    "estado": "A seguir mejorando",
+    "rank": 152
+  },
+  {
+    "nombre": "Calle Sotelo Everney",
+    "apellido": "Calle Sotelo Everney",
+    "archivo": "reportes_externo/153-Calle-Sotelo-Everney.html",
+    "icfes": 177,
+    "estado": "A seguir mejorando",
+    "rank": 153
+  },
+  {
+    "nombre": "Julio Villorina Juan David",
+    "apellido": "Julio Villorina Juan David",
+    "archivo": "reportes_externo/154-Julio-Villorina-Juan-David.html",
+    "icfes": 177,
+    "estado": "A seguir mejorando",
+    "rank": 154
+  },
+  {
+    "nombre": "Scheleguel Correa Danna Carolina",
+    "apellido": "Scheleguel Correa Danna Carolina",
+    "archivo": "reportes_externo/155-Scheleguel-Correa-Danna-Carolina.html",
+    "icfes": 177,
+    "estado": "A seguir mejorando",
+    "rank": 155
+  },
+  {
+    "nombre": "Martinez Hernandez Sofia",
+    "apellido": "Martinez Hernandez Sofia",
+    "archivo": "reportes_externo/156-Martinez-Hernandez-Sofia.html",
+    "icfes": 176,
+    "estado": "A seguir mejorando",
+    "rank": 156
+  },
+  {
+    "nombre": "Montes Cordero Lorena Loreth",
+    "apellido": "Montes Cordero Lorena Loreth",
+    "archivo": "reportes_externo/157-Montes-Cordero-Lorena-Loreth.html",
+    "icfes": 175,
+    "estado": "A seguir mejorando",
+    "rank": 157
+  },
+  {
+    "nombre": "Ariza Echavarria Samara",
+    "apellido": "Ariza Echavarria Samara",
+    "archivo": "reportes_externo/158-Ariza-Echavarria-Samara.html",
+    "icfes": 173,
+    "estado": "A seguir mejorando",
+    "rank": 158
+  },
+  {
+    "nombre": "Vergara Ocampo Jesus David",
+    "apellido": "Vergara Ocampo Jesus David",
+    "archivo": "reportes_externo/159-Vergara-Ocampo-Jesus-David.html",
+    "icfes": 170,
+    "estado": "A seguir mejorando",
+    "rank": 159
+  },
+  {
+    "nombre": "Gonzalez Ramos Keiner",
+    "apellido": "Gonzalez Ramos Keiner",
+    "archivo": "reportes_externo/160-Gonzalez-Ramos-Keiner.html",
+    "icfes": 170,
+    "estado": "A seguir mejorando",
+    "rank": 160
+  },
+  {
+    "nombre": "Quintero Rosario Bresly",
+    "apellido": "Quintero Rosario Bresly",
+    "archivo": "reportes_externo/161-Quintero-Rosario-Bresly.html",
+    "icfes": 170,
+    "estado": "A seguir mejorando",
+    "rank": 161
+  },
+  {
+    "nombre": "Ricardo Vega Juan Camilo",
+    "apellido": "Ricardo Vega Juan Camilo",
+    "archivo": "reportes_externo/162-Ricardo-Vega-Juan-Camilo.html",
+    "icfes": 166,
+    "estado": "A seguir mejorando",
+    "rank": 162
+  },
+  {
+    "nombre": "Tejada Zuñiga Victor Manuel",
+    "apellido": "Tejada Zuñiga Victor Manuel",
+    "archivo": "reportes_externo/163-Tejada-Zuniga-Victor-Manuel.html",
+    "icfes": 162,
+    "estado": "A seguir mejorando",
+    "rank": 163
+  },
+  {
+    "nombre": "Vergara Martinez Ana Sofia",
+    "apellido": "Vergara Martinez Ana Sofia",
+    "archivo": "reportes_externo/164-Vergara-Martinez-Ana-Sofia.html",
+    "icfes": 161,
+    "estado": "A seguir mejorando",
+    "rank": 164
+  },
+  {
+    "nombre": "Ibañez Causil Sara",
+    "apellido": "Ibañez Causil Sara",
+    "archivo": "reportes_externo/165-Ibanez-Causil-Sara.html",
+    "icfes": 160,
+    "estado": "A seguir mejorando",
+    "rank": 165
+  },
+  {
+    "nombre": "Montalvo Pacheco Cristian David",
+    "apellido": "Montalvo Pacheco Cristian David",
+    "archivo": "reportes_externo/166-Montalvo-Pacheco-Cristian-David.html",
+    "icfes": 159,
+    "estado": "A seguir mejorando",
+    "rank": 166
+  },
+  {
+    "nombre": "Cardenas Mansilla Taliana",
+    "apellido": "Cardenas Mansilla Taliana",
+    "archivo": "reportes_externo/167-Cardenas-Mansilla-Taliana.html",
+    "icfes": 157,
+    "estado": "A seguir mejorando",
+    "rank": 167
+  },
+  {
+    "nombre": "Quintero Suarez Jhon Freed",
+    "apellido": "Quintero Suarez Jhon Freed",
+    "archivo": "reportes_externo/168-Quintero-Suarez-Jhon-Freed.html",
+    "icfes": 154,
+    "estado": "A seguir mejorando",
+    "rank": 168
+  },
+  {
+    "nombre": "Avila Garcia Nikol Michell",
+    "apellido": "Avila Garcia Nikol Michell",
+    "archivo": "reportes_externo/169-Avila-Garcia-Nikol-Michell.html",
+    "icfes": 152,
+    "estado": "A seguir mejorando",
+    "rank": 169
+  },
+  {
+    "nombre": "Paternina Arcia Jose Julian",
+    "apellido": "Paternina Arcia Jose Julian",
+    "archivo": "reportes_externo/170-Paternina-Arcia-Jose-Julian.html",
+    "icfes": 143,
+    "estado": "A seguir mejorando",
+    "rank": 170
+  },
+  {
+    "nombre": "Londoño Vasquez Jhoneider",
+    "apellido": "Londoño Vasquez Jhoneider",
+    "archivo": "reportes_externo/171-Londono-Vasquez-Jhoneider.html",
+    "icfes": 141,
+    "estado": "A seguir mejorando",
+    "rank": 171
+  },
+  {
+    "nombre": "Romero Casarrubia Kelly Johana",
+    "apellido": "Romero Casarrubia Kelly Johana",
+    "archivo": "reportes_externo/172-Romero-Casarrubia-Kelly-Johana.html",
+    "icfes": 137,
+    "estado": "A seguir mejorando",
+    "rank": 172
+  },
+  {
+    "nombre": "Mendez Hernandez Yasmila",
+    "apellido": "Mendez Hernandez Yasmila",
+    "archivo": "reportes_externo/173-Mendez-Hernandez-Yasmila.html",
+    "icfes": 129,
+    "estado": "A seguir mejorando",
+    "rank": 173
+  }
+]
