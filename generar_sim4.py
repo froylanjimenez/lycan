@@ -33,6 +33,13 @@ OUT_DIR    = BASE / "reportes_sim4"
 
 SEED = 2026
 SD   = 5.0                      # variacion por area (mean 0) -> "similar" al externo
+
+# Overrides manuales de "preguntas buenas" (correctas) por (nombre, area).
+# Se aplican DESPUES de la generacion aleatoria; el puntaje = round(k*100/N).
+OVERRIDES_CORRECTAS = {
+    ("Villorina Diaz Yehider Enmanuel", "INGLÉS"): 3,   # bajar Ingles: solo 3 buenas
+}
+
 ING_DROP_OBJETIVO = 6.0         # bajar promedio de Ingles ~6 pts (rango pedido 5-7)
 FECHA_DOC = "8 de julio de 2026"
 EXAM_LABEL = "Cuarto Simulacro"
@@ -275,6 +282,13 @@ def main():
         if best is None or score < best[0]:
             best = (score, off, drop, ing_avg, areas_try)
     _, off, drop, ing_avg, areas_final = best
+
+    # overrides manuales de preguntas buenas (post-generacion)
+    for b, a in zip(base, areas_final):
+        for ar in AREAS:
+            k = OVERRIDES_CORRECTAS.get((b["nombre"], ar))
+            if k is not None:
+                a[ar] = int(round(k * 100.0 / PREGUNTAS[ar]))
 
     estudiantes = []
     for b, a in zip(base, areas_final):
