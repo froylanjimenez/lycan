@@ -394,6 +394,19 @@
         .result-card.sim0 { border-left-color: #0b4f6c; }
         .badge-sim0 { background: #0b4f6c; }
 
+        /* ── CUARTO SIMULACRO (sim4) ── */
+        .sim-btn.active.sim4 { color: #E67E22; }
+        .sim-btn.active.sim4 .tag { background: #FDEBD0; color: #E67E22; }
+        .info-box.sim4 { background: #FDEBD0; color: #A04000; border-color: #E67E22; }
+        .search-btn.sim4 {
+            background: linear-gradient(135deg, #E67E22 0%, #A04000 100%);
+            box-shadow: 0 10px 30px rgba(230,126,34,0.3);
+        }
+        input.sim4focus:focus { border-color: #E67E22; box-shadow: 0 0 0 3px rgba(230,126,34,0.12); }
+        .spinner.sim4 { border-top-color: #E67E22; }
+        .result-card.sim4 { border-left-color: #E67E22; }
+        .badge-sim4 { background: #E67E22; }
+
         /* ── MODAL CLAVE ── */
         .modal-overlay {
             display: none; position: fixed; top: 0; left: 0;
@@ -516,6 +529,10 @@
         <button class="sim-btn sim3" id="btn3" onclick="seleccionarSimulacro(3)">
             🟢 Tercer Simulacro<br>
             <span class="tag">2026 · Abr</span>
+        </button>
+        <button class="sim-btn sim4" id="btn4" onclick="seleccionarSimulacro(4)">
+            🟠 Cuarto Simulacro<br>
+            <span class="tag">2026 · Jul</span>
         </button>
     </div>
     <div style="text-align:center;margin-top:-10px;margin-bottom:16px;display:flex;justify-content:center;gap:14px;flex-wrap:wrap">
@@ -691,6 +708,7 @@ let simulacroActivo = 0;
 let datosExterno = null;
 let datosSim2 = null;
 let datosSim3 = null;
+let datosSim4 = null;
 
 // ── SELECCIÓN DE SIMULACRO ───────────────────────────────────────────────────
 function seleccionarSimulacro(n) {
@@ -701,6 +719,7 @@ function seleccionarSimulacro(n) {
     document.getElementById('btn1').classList.toggle('active', n === 1);
     document.getElementById('btn2').classList.toggle('active', n === 2);
     document.getElementById('btn3').classList.toggle('active', n === 3);
+    document.getElementById('btn4').classList.toggle('active', n === 4);
 
     // Ocultar sección notas
     document.getElementById('notasSection').classList.remove('show');
@@ -719,18 +738,18 @@ function seleccionarSimulacro(n) {
     box.className = `info-box sim${n}`;
 
     // Label y botón buscar
-    const labels = {0: 'Buscar en Simulacro externo', 1: 'Buscar en Primer Simulacro', 2: 'Buscar en Segundo Simulacro', 3: 'Buscar en Tercer Simulacro'};
+    const labels = {0: 'Buscar en Simulacro externo', 1: 'Buscar en Primer Simulacro', 2: 'Buscar en Segundo Simulacro', 3: 'Buscar en Tercer Simulacro', 4: 'Buscar en Cuarto Simulacro'};
     document.getElementById('searchLabel').textContent = labels[n];
     const btn = document.getElementById('searchBtn');
     btn.className = `search-btn sim${n}`;
 
     // Input focus color
     const inp = document.getElementById('searchInput');
-    inp.className = n === 0 ? 'sim0focus' : n === 2 ? 'sim2focus' : n === 3 ? 'sim3focus' : '';
+    inp.className = n === 0 ? 'sim0focus' : n === 2 ? 'sim2focus' : n === 3 ? 'sim3focus' : n === 4 ? 'sim4focus' : '';
     inp.value = '';
 
     // Spinner color
-    document.getElementById('spinner').className = n === 0 ? 'spinner sim0' : n === 2 ? 'spinner sim2' : n === 3 ? 'spinner sim3' : 'spinner';
+    document.getElementById('spinner').className = n === 0 ? 'spinner sim0' : n === 2 ? 'spinner sim2' : n === 3 ? 'spinner sim3' : n === 4 ? 'spinner sim4' : 'spinner';
 
     // Limpiar resultados
     document.getElementById('results').classList.remove('show');
@@ -744,6 +763,7 @@ function seleccionarSimulacro(n) {
     if (n === 0 && !datosExterno) cargarExterno();
     if (n === 2 && !datosSim2) cargarSim2();
     if (n === 3 && !datosSim3) cargarSim3();
+    if (n === 4 && !datosSim4) cargarSim4();
 }
 
 function cargarExterno() {
@@ -764,10 +784,17 @@ function cargarSim3() {
         .then(data => { datosSim3 = data; })
         .catch(() => { datosSim3 = []; });
 }
+function cargarSim4() {
+    fetch('indice_sim4.json')
+        .then(r => r.json())
+        .then(data => { datosSim4 = data; })
+        .catch(() => { datosSim4 = []; });
+}
 // Precargar en segundo plano al iniciar
 cargarExterno();
 setTimeout(cargarSim2, 800);
 setTimeout(cargarSim3, 1200);
+setTimeout(cargarSim4, 1600);
 
 // ── BÚSQUEDA ────────────────────────────────────────────────────────────────
 function buscarEstudiante() {
@@ -799,7 +826,7 @@ function buscarEstudiante() {
             } else {
                 buscarEn(datosSim2, q, 2);
             }
-        } else {
+        } else if (simulacroActivo === 3) {
             if (!datosSim3) {
                 fetch('indice_sim3.json')
                     .then(r => r.json())
@@ -807,6 +834,15 @@ function buscarEstudiante() {
                     .catch(() => { document.getElementById('loading').classList.remove('show'); mostrarError('No se pudo cargar el tercer simulacro.'); });
             } else {
                 buscarEn(datosSim3, q, 3);
+            }
+        } else {
+            if (!datosSim4) {
+                fetch('indice_sim4.json')
+                    .then(r => r.json())
+                    .then(data => { datosSim4 = data; buscarEn(datosSim4, q, 4); })
+                    .catch(() => { document.getElementById('loading').classList.remove('show'); mostrarError('No se pudo cargar el cuarto simulacro.'); });
+            } else {
+                buscarEn(datosSim4, q, 4);
             }
         }
     }, 400);
@@ -844,7 +880,7 @@ function mostrarLista(lista, sim) {
 
     lista.forEach(e => {
         const card = document.createElement('div');
-        card.className = `result-card${sim === 0 ? ' sim0' : sim === 2 ? ' sim2' : sim === 3 ? ' sim3' : ''}`;
+        card.className = `result-card${sim === 0 ? ' sim0' : sim === 2 ? ' sim2' : sim === 3 ? ' sim3' : sim === 4 ? ' sim4' : ''}`;
         card.onclick = () => abrirReporte(e, sim);
 
         if (sim === 0) {
@@ -871,13 +907,21 @@ function mostrarLista(lista, sim) {
                     <span class="result-badge badge-sim2">ICFES: ${e.icfes.toFixed(0)}/500</span>
                     <span class="result-badge badge-sim2">Grupo ${e.grupo}</span>
                 </div>`;
-        } else {
+        } else if (sim === 3) {
             card.innerHTML = `
                 <div class="result-name">${e.nombre}</div>
                 <div class="result-info">
                     <span class="result-badge badge-sim3">Posición: ${e.rank}°</span>
                     <span class="result-badge badge-sim3">ICFES: ${e.icfes.toFixed(0)}/500</span>
                     <span class="result-badge badge-sim3">Grupo ${e.grupo}</span>
+                </div>`;
+        } else {
+            card.innerHTML = `
+                <div class="result-name">${e.nombre}</div>
+                <div class="result-info">
+                    <span class="result-badge badge-sim4">Puesto: ${e.rank}°</span>
+                    <span class="result-badge badge-sim4">Puntaje: ${e.icfes.toFixed(0)}/500</span>
+                    <span class="result-badge badge-sim4">${e.estado}</span>
                 </div>`;
         }
         div.appendChild(card);
