@@ -103,7 +103,7 @@ function pinta(){
   res.textContent = f.length + ' de ' + D.length + ' estudiantes';
   tb.innerHTML = f.map(d => `<tr onclick="location.href='${d.f}'">
     <td class="pos">${d.r}</td>
-    <td>${d.n}${d.e ? ' <span class="est">(S1 est.)</span>' : ''}</td>
+    <td>${d.n}</td>
     <td>${d.c}</td>
     <td class="num">${d.lec}</td><td class="num">${d.mat}</td><td class="num">${d.soc}</td>
     <td class="num">${d.cie}</td><td class="num">${d.ing}</td>

@@ -634,10 +634,9 @@ def tabla_estudiantes(lista, ar, con_pos=True, base_pos=1):
     filas = []
     for i, e in enumerate(lista, base_pos):
         cls, txt = nivel(e["areas"][ar])
-        marca = ' <span class="est" title="Sesión 1 estimada">(S1 est.)</span>' if e["estimado"] else ""
         pos = f'<td class="pos">{i}</td>' if con_pos else ""
         filas.append(
-            f"<tr>{pos}<td>{e['nombre']}{marca}</td><td>{e['curso']}</td>"
+            f"<tr>{pos}<td>{e['nombre']}</td><td>{e['curso']}</td>"
             f"<td>{meter(e['areas'][ar])}</td>"
             f"<td class='num'>{e['aciertos'][ar]}</td>"
             f"<td><span class='chip {cls}'>{txt}</span></td>"
@@ -730,9 +729,7 @@ def pagina(titulo_pag, h1, sub, cuerpo):
     <div class="foot">
       Puntaje de área = respuestas correctas ÷ total de preguntas del área × 100.
       Global = round((3 × (Lectura + Matemáticas + Sociales + C. Naturales) + Inglés) ÷ 13 × 5), escala 0–500.
-      Niveles: <b>Alto</b> ≥ 70, <b>Medio</b> 45–69, <b>Bajo</b> &lt; 45.
-      Los estudiantes marcados <b>(S1 est.)</b> no figuran en el registro de la Sesión 1 y sus puntajes de esa
-      sesión son una estimación a partir de la Sesión 2.<br>
+      Niveles: <b>Alto</b> ≥ 70, <b>Medio</b> 45–69, <b>Bajo</b> &lt; 45.<br>
       Documento generado el {FECHA_DOC} • {INSTITUCION}
     </div>
   </div>
@@ -801,9 +798,8 @@ def escribir_analisis(ests, n_tot, por_curso):
 
     top_g = sorted(ests, key=lambda e: e["rank"])[:20]
     filas_top = "".join(
-        f"<tr><td class='pos'>{e['rank']}</td><td>{e['nombre']}"
-        + (' <span class="est">(S1 est.)</span>' if e["estimado"] else "")
-        + f"</td><td>{e['curso']}</td>"
+        f"<tr><td class='pos'>{e['rank']}</td><td>{e['nombre']}</td>"
+        f"<td>{e['curso']}</td>"
         + "".join(f"<td class='num'>{e['areas'][ar]}</td>" for ar in AREAS)
         + f"<td class='num' style='font-size:15px'>{e['icfes']}</td></tr>" for e in top_g)
 
@@ -850,8 +846,7 @@ def escribir_analisis(ests, n_tot, por_curso):
     <i>Fuentes Méndez … Hernández Peñates</i> no figuran en él. Para no dejarlos sin informe, sus puntajes de
     Sesión 1 (incluida la totalidad de Lectura Crítica) se <b>estimaron por regresión lineal</b> a partir de su
     desempeño real en la Sesión 2, calibrada con los {n - n_est} estudiantes que sí presentan ambas sesiones,
-    y se redondearon a un número entero de aciertos alcanzable. Aparecen marcados como <b>(S1 est.)</b> en estas
-    tablas y con un aviso visible en su informe individual.</p>
+    y se redondearon a un número entero de aciertos alcanzable.</p>
 '''
     (BASE / "analisis_sim5.html").write_text(
         pagina(f"Análisis {EXAM_LABEL} — CESUM",
@@ -918,7 +913,7 @@ function pinta(){{
   res.textContent = f.length + ' de ' + D.length + ' estudiantes';
   tb.innerHTML = f.map(d => `<tr onclick="location.href='${{d.f}}'">
     <td class="pos">${{d.r}}</td>
-    <td>${{d.n}}${{d.e ? ' <span class="est">(S1 est.)</span>' : ''}}</td>
+    <td>${{d.n}}</td>
     <td>${{d.c}}</td>
     <td class="num">${{d.lec}}</td><td class="num">${{d.mat}}</td><td class="num">${{d.soc}}</td>
     <td class="num">${{d.cie}}</td><td class="num">${{d.ing}}</td>
