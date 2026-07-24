@@ -331,3 +331,102 @@ El sistema está **100% funcional** y preparado para compartir con tus estudiant
 **Estudiantes:** 172  
 **Reportes Generados:** 172  
 **Estado:** ✅ LISTO PARA PUBLICAR
+
+---
+
+# 🆕 Simulacro Final — Julio 2026 (sim5)
+
+**Este es el simulacro más reciente y el primero calculado con las respuestas reales
+de los estudiantes** (los anteriores se estimaban a partir del simulacro externo).
+
+## Archivos
+
+| Archivo | Qué es |
+|---|---|
+| `index_sim5.html` | **Buscador de estudiantes** — punto de entrada |
+| `analisis_sim5.html` | Consolidado general + acceso a los 5 análisis por área |
+| `analisis_sim5_lectura_critica.html` | Análisis de Lectura Crítica |
+| `analisis_sim5_matematicas.html` | Análisis de Matemáticas |
+| `analisis_sim5_sociales.html` | Análisis de Sociales y Ciudadanas |
+| `analisis_sim5_ciencias_naturales.html` | Análisis de Ciencias Naturales |
+| `analisis_sim5_ingles.html` | Análisis de Inglés |
+| `reportes_sim5/` | **148 informes individuales** (uno por estudiante) |
+| `indice_sim5.json` | Índice: nombre, curso, global, puesto |
+| `indice_areas_sim5.json` | Puntajes por área de cada estudiante |
+| `datos_sim5/` | CSV originales de Sesión 1 y Sesión 2 |
+| `generar_sim5.py` | Generador reproducible (semilla fija) |
+
+Cada análisis por área trae: promedio, mediana, máximo, mínimo y desviación;
+**los 15 mejores puntajes**, **los 15 más bajos**, promedio por curso,
+distribución por rangos y la tabla completa de los 148 estudiantes.
+
+## Estructura de la prueba
+
+**Sesión 1 — 106 preguntas** (la #10 fue anulada, quedan 105 efectivas)
+
+| Área | Preguntas | Total |
+|---|---|---|
+| Matemáticas | 1 – 22 | 22 (21 efectivas) |
+| Lectura Crítica | 23 – 58 | 36 |
+| Sociales y Ciudadanas | 59 – 80 | 22 |
+| Ciencias Naturales | 81 – 106 | 26 |
+
+**Sesión 2 — 115 preguntas**
+
+| Área | Preguntas | Total |
+|---|---|---|
+| Sociales y Ciudadanas | 1 – 22 | 22 |
+| Matemáticas | 23 – 44 | 22 |
+| Ciencias Naturales | 45 – 70 | 26 |
+| Inglés | 71 – 115 | 45 |
+
+**Consolidado:** Ciencias Naturales 52 · Inglés 45 · Sociales 44 · Matemáticas 43 · Lectura Crítica 36 → **220 preguntas efectivas**
+
+## Cálculo de puntajes
+
+```
+Puntaje de área (0–100) = round(aciertos / preguntas del área × 100)
+Global ICFES   (0–500)  = round( (3 × (LC + Mat + Soc + CN) + Ing) / 13 × 5 )
+```
+
+Niveles de desempeño global: **Alto** ≥ 326 · **Medio** 220–325 · **Básico** < 220.
+
+## Resultados generales
+
+- Estudiantes: **148** (6 cursos: 11-1 a 11-6)
+- Promedio global: **242.7 / 500** — máximo **385** · mínimo **144**
+- Con opciones en la Universidad de Córdoba (global ≥ 246.75): **64**
+
+Promedios por área (0–100):
+
+| Área | Promedio |
+|---|---|
+| Lectura Crítica | **57.3** |
+| Ciencias Sociales - C. Ciudadanas | **49.6** |
+| Matemáticas | **47.4** |
+| Inglés | **43.3** |
+| Ciencias Naturales | **41.7** |
+
+## ⚠️ Nota metodológica: 15 estudiantes con Sesión 1 estimada
+
+El export de la Sesión 1 llegó **incompleto**: faltan 15 estudiantes del bloque
+alfabético *Fuentes Méndez … Hernández Peñates* que sí presentaron la Sesión 2.
+
+Para no dejarlos sin informe, sus puntajes de Sesión 1 —incluida **toda** Lectura
+Crítica— se estimaron por **regresión lineal** a partir de su desempeño real en la
+Sesión 2, calibrada con los 133 estudiantes que sí tienen ambas sesiones, y se
+redondearon a un número entero de aciertos alcanzable.
+
+Estos estudiantes aparecen marcados **(S1 est.)** en las tablas de análisis y con un
+**aviso rojo visible** en su informe individual. Si aparece el CSV completo de la
+Sesión 1, basta reemplazar `datos_sim5/sesion1.csv` y volver a ejecutar
+`python3 generar_sim5.py` para regenerar todo con datos reales.
+
+## Regenerar
+
+```bash
+python3 generar_sim5.py
+```
+
+Reproducible: semilla fija, mismos resultados en cada corrida.
+No modifica los simulacros anteriores (externo, sim2, sim3, sim4).
