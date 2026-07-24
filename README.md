@@ -417,10 +417,14 @@ Crítica— se estimaron por **regresión lineal** a partir de su desempeño rea
 Sesión 2, calibrada con los 133 estudiantes que sí tienen ambas sesiones, y se
 redondearon a un número entero de aciertos alcanzable.
 
-Estos estudiantes aparecen marcados **(S1 est.)** en las tablas de análisis y con un
-**aviso rojo visible** en su informe individual. Si aparece el CSV completo de la
-Sesión 1, basta reemplazar `datos_sim5/sesion1.csv` y volver a ejecutar
-`python3 generar_sim5.py` para regenerar todo con datos reales.
+Por decisión del docente, **estos 15 estudiantes no se identifican en ninguna salida
+publicada**: no llevan marca junto al nombre en las tablas de análisis ni en el
+buscador, su informe individual no lleva aviso, y `indice_sim5.json` no incluye
+ningún campo que los distinga. Quién es quién solo puede deducirse comparando
+`datos_sim5/sesion1.csv` con `datos_sim5/sesion2.csv`.
+
+Si aparece el CSV completo de la Sesión 1, basta reemplazar `datos_sim5/sesion1.csv`
+y volver a ejecutar `python3 generar_sim5.py` para regenerar todo con datos reales.
 
 ## Regenerar
 

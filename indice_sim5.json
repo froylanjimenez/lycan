@@ -6,8 +6,7 @@
   "archivo": "reportes_sim5/001-Cali-Estrada-Stiven-Dario.html",
   "icfes": 385,
   "estado": "Con opciones",
-  "rank": 1,
-  "estimado_s1": false
+  "rank": 1
  },
  {
   "nombre": "Villorina Yehider",
@@ -16,8 +15,7 @@
   "archivo": "reportes_sim5/002-Villorina-Yehider.html",
   "icfes": 365,
   "estado": "Con opciones",
-  "rank": 2,
-  "estimado_s1": false
+  "rank": 2
  },
  {
   "nombre": "Ruiz Monterroza Sebastian",
@@ -26,8 +24,7 @@
   "archivo": "reportes_sim5/003-Ruiz-Monterroza-Sebastian.html",
   "icfes": 364,
   "estado": "Con opciones",
-  "rank": 3,
-  "estimado_s1": false
+  "rank": 3
  },
  {
   "nombre": "Tirado Garay Justin",
@@ -36,8 +33,7 @@
   "archivo": "reportes_sim5/004-Tirado-Garay-Justin.html",
   "icfes": 352,
   "estado": "Con opciones",
-  "rank": 4,
-  "estimado_s1": false
+  "rank": 4
  },
  {
   "nombre": "Mejia Heredia Kevin David",
@@ -46,8 +42,7 @@
   "archivo": "reportes_sim5/005-Mejia-Heredia-Kevin-David.html",
   "icfes": 340,
   "estado": "Con opciones",
-  "rank": 5,
-  "estimado_s1": false
+  "rank": 5
  },
  {
   "nombre": "Campo Salazar Diego Armando",
@@ -56,8 +51,7 @@
   "archivo": "reportes_sim5/006-Campo-Salazar-Diego-Armando.html",
   "icfes": 337,
   "estado": "Con opciones",
-  "rank": 6,
-  "estimado_s1": false
+  "rank": 6
  },
  {
   "nombre": "Florez Oviedo Samahara",
@@ -66,8 +60,7 @@
   "archivo": "reportes_sim5/007-Florez-Oviedo-Samahara.html",
   "icfes": 334,
   "estado": "Con opciones",
-  "rank": 7,
-  "estimado_s1": false
+  "rank": 7
  },
  {
   "nombre": "Alean Zapata Samuel",
@@ -76,8 +69,7 @@
   "archivo": "reportes_sim5/008-Alean-Zapata-Samuel.html",
   "icfes": 333,
   "estado": "Con opciones",
-  "rank": 8,
-  "estimado_s1": false
+  "rank": 8
  },
  {
   "nombre": "Madrid Sierra Angelica",
@@ -86,8 +78,7 @@
   "archivo": "reportes_sim5/009-Madrid-Sierra-Angelica.html",
   "icfes": 330,
   "estado": "Con opciones",
-  "rank": 9,
-  "estimado_s1": false
+  "rank": 9
  },
  {
   "nombre": "Duque Herrera Diego David",
@@ -96,8 +87,7 @@
   "archivo": "reportes_sim5/010-Duque-Herrera-Diego-David.html",
   "icfes": 328,
   "estado": "Con opciones",
-  "rank": 10,
-  "estimado_s1": false
+  "rank": 10
  },
  {
   "nombre": "Argumedo Salas Daily Alejandra",
@@ -106,8 +96,7 @@
   "archivo": "reportes_sim5/011-Argumedo-Salas-Daily-Alejandra.html",
   "icfes": 327,
   "estado": "Con opciones",
-  "rank": 11,
-  "estimado_s1": false
+  "rank": 11
  },
  {
   "nombre": "Calle Moreno Jose Albeiro",
@@ -116,8 +105,7 @@
   "archivo": "reportes_sim5/012-Calle-Moreno-Jose-Albeiro.html",
   "icfes": 326,
   "estado": "Con opciones",
-  "rank": 12,
-  "estimado_s1": false
+  "rank": 12
  },
  {
   "nombre": "Ruiz Granados Yerman Yair",
@@ -126,8 +114,7 @@
   "archivo": "reportes_sim5/013-Ruiz-Granados-Yerman-Yair.html",
   "icfes": 322,
   "estado": "Con opciones",
-  "rank": 13,
-  "estimado_s1": false
+  "rank": 13
  },
  {
   "nombre": "Maldonado Villalba Melani Alejandra",
@@ -136,8 +123,7 @@
   "archivo": "reportes_sim5/014-Maldonado-Villalba-Melani-Alejandra.html",
   "icfes": 317,
   "estado": "Con opciones",
-  "rank": 14,
-  "estimado_s1": false
+  "rank": 14
  },
  {
   "nombre": "De la Ossa Polo Alex Jose",
@@ -146,8 +132,7 @@
   "archivo": "reportes_sim5/015-De-la-Ossa-Polo-Alex-Jose.html",
   "icfes": 316,
   "estado": "Con opciones",
-  "rank": 15,
-  "estimado_s1": false
+  "rank": 15
  },
  {
   "nombre": "Marcelo Serpa Ivan David",
@@ -156,8 +141,7 @@
   "archivo": "reportes_sim5/016-Marcelo-Serpa-Ivan-David.html",
   "icfes": 316,
   "estado": "Con opciones",
-  "rank": 16,
-  "estimado_s1": false
+  "rank": 16
  },
  {
   "nombre": "Paternina Hincapie Juan Pablo",
@@ -166,8 +150,7 @@
   "archivo": "reportes_sim5/017-Paternina-Hincapie-Juan-Pablo.html",
   "icfes": 313,
   "estado": "Con opciones",
-  "rank": 17,
-  "estimado_s1": false
+  "rank": 17
  },
  {
   "nombre": "Rodriguez Osorio Sharon Lishell",
@@ -176,8 +159,7 @@
   "archivo": "reportes_sim5/018-Rodriguez-Osorio-Sharon-Lishell.html",
   "icfes": 312,
   "estado": "Con opciones",
-  "rank": 18,
-  "estimado_s1": false
+  "rank": 18
  },
  {
   "nombre": "Fernandez Madrid Ana Sofia",
@@ -186,8 +168,7 @@
   "archivo": "reportes_sim5/019-Fernandez-Madrid-Ana-Sofia.html",
   "icfes": 309,
   "estado": "Con opciones",
-  "rank": 19,
-  "estimado_s1": false
+  "rank": 19
  },
  {
   "nombre": "Florez Martinez Juan Esteban",
@@ -196,8 +177,7 @@
   "archivo": "reportes_sim5/020-Florez-Martinez-Juan-Esteban.html",
   "icfes": 309,
   "estado": "Con opciones",
-  "rank": 20,
-  "estimado_s1": false
+  "rank": 20
  },
  {
   "nombre": "Mendoza Feria Carlos Enrique",
@@ -206,8 +186,7 @@
   "archivo": "reportes_sim5/021-Mendoza-Feria-Carlos-Enrique.html",
   "icfes": 303,
   "estado": "Con opciones",
-  "rank": 21,
-  "estimado_s1": false
+  "rank": 21
  },
  {
   "nombre": "Benitez Barrios Yojan David",
@@ -216,8 +195,7 @@
   "archivo": "reportes_sim5/022-Benitez-Barrios-Yojan-David.html",
   "icfes": 300,
   "estado": "Con opciones",
-  "rank": 22,
-  "estimado_s1": false
+  "rank": 22
  },
  {
   "nombre": "Diaz Hernandez Syara Sofia",
@@ -226,8 +204,7 @@
   "archivo": "reportes_sim5/023-Diaz-Hernandez-Syara-Sofia.html",
   "icfes": 298,
   "estado": "Con opciones",
-  "rank": 23,
-  "estimado_s1": false
+  "rank": 23
  },
  {
   "nombre": "Murillo Buelvas Camilo Andres",
@@ -236,8 +213,7 @@
   "archivo": "reportes_sim5/024-Murillo-Buelvas-Camilo-Andres.html",
   "icfes": 294,
   "estado": "Con opciones",
-  "rank": 24,
-  "estimado_s1": false
+  "rank": 24
  },
  {
   "nombre": "Ricardo Vega Juan Camilo",
@@ -246,8 +222,7 @@
   "archivo": "reportes_sim5/025-Ricardo-Vega-Juan-Camilo.html",
   "icfes": 294,
   "estado": "Con opciones",
-  "rank": 25,
-  "estimado_s1": false
+  "rank": 25
  },
  {
   "nombre": "Arrieta Gomez Juliana",
@@ -256,8 +231,7 @@
   "archivo": "reportes_sim5/026-Arrieta-Gomez-Juliana.html",
   "icfes": 293,
   "estado": "Con opciones",
-  "rank": 26,
-  "estimado_s1": false
+  "rank": 26
  },
  {
   "nombre": "Banquet Mendoza Juliana",
@@ -266,8 +240,7 @@
   "archivo": "reportes_sim5/027-Banquet-Mendoza-Juliana.html",
   "icfes": 293,
   "estado": "Con opciones",
-  "rank": 27,
-  "estimado_s1": false
+  "rank": 27
  },
  {
   "nombre": "Pimienta Soto Saray Camila",
@@ -276,8 +249,7 @@
   "archivo": "reportes_sim5/028-Pimienta-Soto-Saray-Camila.html",
   "icfes": 293,
   "estado": "Con opciones",
-  "rank": 28,
-  "estimado_s1": false
+  "rank": 28
  },
  {
   "nombre": "Rodriguez Vertel Patricia del Carmen",
@@ -286,8 +258,7 @@
   "archivo": "reportes_sim5/029-Rodriguez-Vertel-Patricia-del-Carmen.html",
   "icfes": 292,
   "estado": "Con opciones",
-  "rank": 29,
-  "estimado_s1": false
+  "rank": 29
  },
  {
   "nombre": "Guerra Villa Stefania",
@@ -296,8 +267,7 @@
   "archivo": "reportes_sim5/030-Guerra-Villa-Stefania.html",
   "icfes": 288,
   "estado": "Con opciones",
-  "rank": 30,
-  "estimado_s1": true
+  "rank": 30
  },
  {
   "nombre": "Camargo Urango Andrea Liseth",
@@ -306,8 +276,7 @@
   "archivo": "reportes_sim5/031-Camargo-Urango-Andrea-Liseth.html",
   "icfes": 287,
   "estado": "Con opciones",
-  "rank": 31,
-  "estimado_s1": false
+  "rank": 31
  },
  {
   "nombre": "Salazar Oyola Yalena Sofia",
@@ -316,8 +285,7 @@
   "archivo": "reportes_sim5/032-Salazar-Oyola-Yalena-Sofia.html",
   "icfes": 285,
   "estado": "Con opciones",
-  "rank": 32,
-  "estimado_s1": false
+  "rank": 32
  },
  {
   "nombre": "Aguas Atencia Valentina",
@@ -326,8 +294,7 @@
   "archivo": "reportes_sim5/033-Aguas-Atencia-Valentina.html",
   "icfes": 282,
   "estado": "Con opciones",
-  "rank": 33,
-  "estimado_s1": false
+  "rank": 33
  },
  {
   "nombre": "Mestra Ardila Ariathna",
@@ -336,8 +303,7 @@
   "archivo": "reportes_sim5/034-Mestra-Ardila-Ariathna.html",
   "icfes": 279,
   "estado": "Con opciones",
-  "rank": 34,
-  "estimado_s1": false
+  "rank": 34
  },
  {
   "nombre": "Padilla Mora Diego",
@@ -346,8 +312,7 @@
   "archivo": "reportes_sim5/035-Padilla-Mora-Diego.html",
   "icfes": 278,
   "estado": "Con opciones",
-  "rank": 35,
-  "estimado_s1": false
+  "rank": 35
  },
  {
   "nombre": "Agamez Zabala Nicolas Elias",
@@ -356,8 +321,7 @@
   "archivo": "reportes_sim5/036-Agamez-Zabala-Nicolas-Elias.html",
   "icfes": 277,
   "estado": "Con opciones",
-  "rank": 36,
-  "estimado_s1": false
+  "rank": 36
  },
  {
   "nombre": "Gutierrez Arrieta Anys Andrea",
@@ -366,8 +330,7 @@
   "archivo": "reportes_sim5/037-Gutierrez-Arrieta-Anys-Andrea.html",
   "icfes": 277,
   "estado": "Con opciones",
-  "rank": 37,
-  "estimado_s1": true
+  "rank": 37
  },
  {
   "nombre": "Perez Choles Michell Andrea",
@@ -376,8 +339,7 @@
   "archivo": "reportes_sim5/038-Perez-Choles-Michell-Andrea.html",
   "icfes": 277,
   "estado": "Con opciones",
-  "rank": 38,
-  "estimado_s1": false
+  "rank": 38
  },
  {
   "nombre": "Carvajal Diaz Juan Andres",
@@ -386,8 +348,7 @@
   "archivo": "reportes_sim5/039-Carvajal-Diaz-Juan-Andres.html",
   "icfes": 274,
   "estado": "Con opciones",
-  "rank": 39,
-  "estimado_s1": false
+  "rank": 39
  },
  {
   "nombre": "Acosta Bueno Keiner",
@@ -396,8 +357,7 @@
   "archivo": "reportes_sim5/040-Acosta-Bueno-Keiner.html",
   "icfes": 273,
   "estado": "Con opciones",
-  "rank": 40,
-  "estimado_s1": false
+  "rank": 40
  },
  {
   "nombre": "Fino Ricardo Jesus Orlando",
@@ -406,8 +366,7 @@
   "archivo": "reportes_sim5/041-Fino-Ricardo-Jesus-Orlando.html",
   "icfes": 273,
   "estado": "Con opciones",
-  "rank": 41,
-  "estimado_s1": false
+  "rank": 41
  },
  {
   "nombre": "Hernandez Hoyos Keilly Michelle",
@@ -416,8 +375,7 @@
   "archivo": "reportes_sim5/042-Hernandez-Hoyos-Keilly-Michelle.html",
   "icfes": 273,
   "estado": "Con opciones",
-  "rank": 42,
-  "estimado_s1": true
+  "rank": 42
  },
  {
   "nombre": "Estremor Perez Valentina",
@@ -426,8 +384,7 @@
   "archivo": "reportes_sim5/043-Estremor-Perez-Valentina.html",
   "icfes": 272,
   "estado": "Con opciones",
-  "rank": 43,
-  "estimado_s1": false
+  "rank": 43
  },
  {
   "nombre": "Espitia Morales Victor Andres",
@@ -436,8 +393,7 @@
   "archivo": "reportes_sim5/044-Espitia-Morales-Victor-Andres.html",
   "icfes": 271,
   "estado": "Con opciones",
-  "rank": 44,
-  "estimado_s1": false
+  "rank": 44
  },
  {
   "nombre": "Castro Rivera Biana Liceth",
@@ -446,8 +402,7 @@
   "archivo": "reportes_sim5/045-Castro-Rivera-Biana-Liceth.html",
   "icfes": 270,
   "estado": "Con opciones",
-  "rank": 45,
-  "estimado_s1": false
+  "rank": 45
  },
  {
   "nombre": "Ramirez Morales Yady Isabel",
@@ -456,8 +411,7 @@
   "archivo": "reportes_sim5/046-Ramirez-Morales-Yady-Isabel.html",
   "icfes": 270,
   "estado": "Con opciones",
-  "rank": 46,
-  "estimado_s1": false
+  "rank": 46
  },
  {
   "nombre": "Baquero Diaz Nicol Stefany",
@@ -466,8 +420,7 @@
   "archivo": "reportes_sim5/047-Baquero-Diaz-Nicol-Stefany.html",
   "icfes": 269,
   "estado": "Con opciones",
-  "rank": 47,
-  "estimado_s1": false
+  "rank": 47
  },
  {
   "nombre": "Fuentes Mendez Sheryl Andrea",
@@ -476,8 +429,7 @@
   "archivo": "reportes_sim5/048-Fuentes-Mendez-Sheryl-Andrea.html",
   "icfes": 268,
   "estado": "Con opciones",
-  "rank": 48,
-  "estimado_s1": true
+  "rank": 48
  },
  {
   "nombre": "Estrada Garces Lauren Vanessa",
@@ -486,8 +438,7 @@
   "archivo": "reportes_sim5/049-Estrada-Garces-Lauren-Vanessa.html",
   "icfes": 267,
   "estado": "Con opciones",
-  "rank": 49,
-  "estimado_s1": false
+  "rank": 49
  },
  {
   "nombre": "Berrio Mendoza Taliana",
@@ -496,8 +447,7 @@
   "archivo": "reportes_sim5/050-Berrio-Mendoza-Taliana.html",
   "icfes": 264,
   "estado": "Con opciones",
-  "rank": 50,
-  "estimado_s1": false
+  "rank": 50
  },
  {
   "nombre": "Benitez Baltazar Luisa Fernanda",
@@ -506,8 +456,7 @@
   "archivo": "reportes_sim5/051-Benitez-Baltazar-Luisa-Fernanda.html",
   "icfes": 263,
   "estado": "Con opciones",
-  "rank": 51,
-  "estimado_s1": false
+  "rank": 51
  },
  {
   "nombre": "Florez Cano Isabella",
@@ -516,8 +465,7 @@
   "archivo": "reportes_sim5/052-Florez-Cano-Isabella.html",
   "icfes": 262,
   "estado": "Con opciones",
-  "rank": 52,
-  "estimado_s1": false
+  "rank": 52
  },
  {
   "nombre": "Pasos Sotelo Maria de los Angeles",
@@ -526,8 +474,7 @@
   "archivo": "reportes_sim5/053-Pasos-Sotelo-Maria-de-los-Angeles.html",
   "icfes": 262,
   "estado": "Con opciones",
-  "rank": 53,
-  "estimado_s1": false
+  "rank": 53
  },
  {
   "nombre": "Ramos Beleño Yisel Karolina",
@@ -536,8 +483,7 @@
   "archivo": "reportes_sim5/054-Ramos-Beleno-Yisel-Karolina.html",
   "icfes": 262,
   "estado": "Con opciones",
-  "rank": 54,
-  "estimado_s1": false
+  "rank": 54
  },
  {
   "nombre": "Ruiz Villadiego Pamela Denise",
@@ -546,8 +492,7 @@
   "archivo": "reportes_sim5/055-Ruiz-Villadiego-Pamela-Denise.html",
   "icfes": 262,
   "estado": "Con opciones",
-  "rank": 55,
-  "estimado_s1": false
+  "rank": 55
  },
  {
   "nombre": "Colon Serrano Luisa Fernanda",
@@ -556,8 +501,7 @@
   "archivo": "reportes_sim5/056-Colon-Serrano-Luisa-Fernanda.html",
   "icfes": 260,
   "estado": "Con opciones",
-  "rank": 56,
-  "estimado_s1": false
+  "rank": 56
  },
  {
   "nombre": "Sanchez Monterroza Natalia",
@@ -566,8 +510,7 @@
   "archivo": "reportes_sim5/057-Sanchez-Monterroza-Natalia.html",
   "icfes": 260,
   "estado": "Con opciones",
-  "rank": 57,
-  "estimado_s1": false
+  "rank": 57
  },
  {
   "nombre": "Diaz Castro Andres",
@@ -576,8 +519,7 @@
   "archivo": "reportes_sim5/058-Diaz-Castro-Andres.html",
   "icfes": 258,
   "estado": "Con opciones",
-  "rank": 58,
-  "estimado_s1": false
+  "rank": 58
  },
  {
   "nombre": "Sotelo Torres Camila Andrea",
@@ -586,8 +528,7 @@
   "archivo": "reportes_sim5/059-Sotelo-Torres-Camila-Andrea.html",
   "icfes": 258,
   "estado": "Con opciones",
-  "rank": 59,
-  "estimado_s1": false
+  "rank": 59
  },
  {
   "nombre": "Peñates Garavito Melani",
@@ -596,8 +537,7 @@
   "archivo": "reportes_sim5/060-Penates-Garavito-Melani.html",
   "icfes": 254,
   "estado": "Con opciones",
-  "rank": 60,
-  "estimado_s1": false
+  "rank": 60
  },
  {
   "nombre": "Zea Camaño Yesid Andres",
@@ -606,8 +546,7 @@
   "archivo": "reportes_sim5/061-Zea-Camano-Yesid-Andres.html",
   "icfes": 253,
   "estado": "Con opciones",
-  "rank": 61,
-  "estimado_s1": false
+  "rank": 61
  },
  {
   "nombre": "Torrez Mendoza Sara Marcela",
@@ -616,8 +555,7 @@
   "archivo": "reportes_sim5/062-Torrez-Mendoza-Sara-Marcela.html",
   "icfes": 251,
   "estado": "Con opciones",
-  "rank": 62,
-  "estimado_s1": false
+  "rank": 62
  },
  {
   "nombre": "Salgado Mazo Mariangel",
@@ -626,8 +564,7 @@
   "archivo": "reportes_sim5/063-Salgado-Mazo-Mariangel.html",
   "icfes": 249,
   "estado": "Con opciones",
-  "rank": 63,
-  "estimado_s1": false
+  "rank": 63
  },
  {
   "nombre": "Mendez Hernandez Yasmila",
@@ -636,8 +573,7 @@
   "archivo": "reportes_sim5/064-Mendez-Hernandez-Yasmila.html",
   "icfes": 248,
   "estado": "Con opciones",
-  "rank": 64,
-  "estimado_s1": false
+  "rank": 64
  },
  {
   "nombre": "Castillo Camargo Didier Esneider",
@@ -646,8 +582,7 @@
   "archivo": "reportes_sim5/065-Castillo-Camargo-Didier-Esneider.html",
   "icfes": 246,
   "estado": "A seguir mejorando",
-  "rank": 65,
-  "estimado_s1": false
+  "rank": 65
  },
  {
   "nombre": "Contreras Garcia Juliana",
@@ -656,8 +591,7 @@
   "archivo": "reportes_sim5/066-Contreras-Garcia-Juliana.html",
   "icfes": 245,
   "estado": "A seguir mejorando",
-  "rank": 66,
-  "estimado_s1": false
+  "rank": 66
  },
  {
   "nombre": "De Leon Pertuz Eliecer de Jesus",
@@ -666,8 +600,7 @@
   "archivo": "reportes_sim5/067-De-Leon-Pertuz-Eliecer-de-Jesus.html",
   "icfes": 245,
   "estado": "A seguir mejorando",
-  "rank": 67,
-  "estimado_s1": false
+  "rank": 67
  },
  {
   "nombre": "Rodriguez Velasquez Samuel Alexander",
@@ -676,8 +609,7 @@
   "archivo": "reportes_sim5/068-Rodriguez-Velasquez-Samuel-Alexander.html",
   "icfes": 245,
   "estado": "A seguir mejorando",
-  "rank": 68,
-  "estimado_s1": false
+  "rank": 68
  },
  {
   "nombre": "Monterroza Casarrubia Kelly Johana",
@@ -686,8 +618,7 @@
   "archivo": "reportes_sim5/069-Monterroza-Casarrubia-Kelly-Johana.html",
   "icfes": 244,
   "estado": "A seguir mejorando",
-  "rank": 69,
-  "estimado_s1": false
+  "rank": 69
  },
  {
   "nombre": "Barrios Sotelo Matias Andres",
@@ -696,8 +627,7 @@
   "archivo": "reportes_sim5/070-Barrios-Sotelo-Matias-Andres.html",
   "icfes": 238,
   "estado": "A seguir mejorando",
-  "rank": 70,
-  "estimado_s1": false
+  "rank": 70
  },
  {
   "nombre": "Canole Vasquez Nicolas Elias",
@@ -706,8 +636,7 @@
   "archivo": "reportes_sim5/071-Canole-Vasquez-Nicolas-Elias.html",
   "icfes": 238,
   "estado": "A seguir mejorando",
-  "rank": 71,
-  "estimado_s1": false
+  "rank": 71
  },
  {
   "nombre": "Martinez Balbera Angelica",
@@ -716,8 +645,7 @@
   "archivo": "reportes_sim5/072-Martinez-Balbera-Angelica.html",
   "icfes": 236,
   "estado": "A seguir mejorando",
-  "rank": 72,
-  "estimado_s1": false
+  "rank": 72
  },
  {
   "nombre": "Rodiño Vallejo Fredy Jose",
@@ -726,8 +654,7 @@
   "archivo": "reportes_sim5/073-Rodino-Vallejo-Fredy-Jose.html",
   "icfes": 233,
   "estado": "A seguir mejorando",
-  "rank": 73,
-  "estimado_s1": false
+  "rank": 73
  },
  {
   "nombre": "Romero Casarrubia Kelly Johana",
@@ -736,8 +663,7 @@
   "archivo": "reportes_sim5/074-Romero-Casarrubia-Kelly-Johana.html",
   "icfes": 233,
   "estado": "A seguir mejorando",
-  "rank": 74,
-  "estimado_s1": false
+  "rank": 74
  },
  {
   "nombre": "Coronado Palencia Esteban David",
@@ -746,8 +672,7 @@
   "archivo": "reportes_sim5/075-Coronado-Palencia-Esteban-David.html",
   "icfes": 232,
   "estado": "A seguir mejorando",
-  "rank": 75,
-  "estimado_s1": false
+  "rank": 75
  },
  {
   "nombre": "Hernandez Peñates Enis Yulisa",
@@ -756,8 +681,7 @@
   "archivo": "reportes_sim5/076-Hernandez-Penates-Enis-Yulisa.html",
   "icfes": 232,
   "estado": "A seguir mejorando",
-  "rank": 76,
-  "estimado_s1": true
+  "rank": 76
  },
  {
   "nombre": "Zuñiga Osorio Liz Emily",
@@ -766,8 +690,7 @@
   "archivo": "reportes_sim5/077-Zuniga-Osorio-Liz-Emily.html",
   "icfes": 232,
   "estado": "A seguir mejorando",
-  "rank": 77,
-  "estimado_s1": false
+  "rank": 77
  },
  {
   "nombre": "Perez Vergara Juliana",
@@ -776,8 +699,7 @@
   "archivo": "reportes_sim5/078-Perez-Vergara-Juliana.html",
   "icfes": 231,
   "estado": "A seguir mejorando",
-  "rank": 78,
-  "estimado_s1": false
+  "rank": 78
  },
  {
   "nombre": "Mendoza Hoyos David",
@@ -786,8 +708,7 @@
   "archivo": "reportes_sim5/079-Mendoza-Hoyos-David.html",
   "icfes": 229,
   "estado": "A seguir mejorando",
-  "rank": 79,
-  "estimado_s1": false
+  "rank": 79
  },
  {
   "nombre": "Mercado Tirado Danilsa",
@@ -796,8 +717,7 @@
   "archivo": "reportes_sim5/080-Mercado-Tirado-Danilsa.html",
   "icfes": 229,
   "estado": "A seguir mejorando",
-  "rank": 80,
-  "estimado_s1": false
+  "rank": 80
  },
  {
   "nombre": "Calle Sotelo Everney",
@@ -806,8 +726,7 @@
   "archivo": "reportes_sim5/081-Calle-Sotelo-Everney.html",
   "icfes": 228,
   "estado": "A seguir mejorando",
-  "rank": 81,
-  "estimado_s1": false
+  "rank": 81
  },
  {
   "nombre": "Correa Oviedo Taliana",
@@ -816,8 +735,7 @@
   "archivo": "reportes_sim5/082-Correa-Oviedo-Taliana.html",
   "icfes": 228,
   "estado": "A seguir mejorando",
-  "rank": 82,
-  "estimado_s1": false
+  "rank": 82
  },
  {
   "nombre": "Pastrana Rodriguez Maria Angelica",
@@ -826,8 +744,7 @@
   "archivo": "reportes_sim5/083-Pastrana-Rodriguez-Maria-Angelica.html",
   "icfes": 227,
   "estado": "A seguir mejorando",
-  "rank": 83,
-  "estimado_s1": false
+  "rank": 83
  },
  {
   "nombre": "Pereira Lopez Elizabeth",
@@ -836,8 +753,7 @@
   "archivo": "reportes_sim5/084-Pereira-Lopez-Elizabeth.html",
   "icfes": 227,
   "estado": "A seguir mejorando",
-  "rank": 84,
-  "estimado_s1": false
+  "rank": 84
  },
  {
   "nombre": "Reyes Cordoba Hita Fernanda",
@@ -846,8 +762,7 @@
   "archivo": "reportes_sim5/085-Reyes-Cordoba-Hita-Fernanda.html",
   "icfes": 225,
   "estado": "A seguir mejorando",
-  "rank": 85,
-  "estimado_s1": false
+  "rank": 85
  },
  {
   "nombre": "Mantilla Espitia Andy Paola",
@@ -856,8 +771,7 @@
   "archivo": "reportes_sim5/086-Mantilla-Espitia-Andy-Paola.html",
   "icfes": 223,
   "estado": "A seguir mejorando",
-  "rank": 86,
-  "estimado_s1": false
+  "rank": 86
  },
  {
   "nombre": "Arrieta Sierra Valentina",
@@ -866,8 +780,7 @@
   "archivo": "reportes_sim5/087-Arrieta-Sierra-Valentina.html",
   "icfes": 221,
   "estado": "A seguir mejorando",
-  "rank": 87,
-  "estimado_s1": false
+  "rank": 87
  },
  {
   "nombre": "Correa Dominguez Valeri",
@@ -876,8 +789,7 @@
   "archivo": "reportes_sim5/088-Correa-Dominguez-Valeri.html",
   "icfes": 220,
   "estado": "A seguir mejorando",
-  "rank": 88,
-  "estimado_s1": false
+  "rank": 88
  },
  {
   "nombre": "Escobar Vargas Karol Dayana",
@@ -886,8 +798,7 @@
   "archivo": "reportes_sim5/089-Escobar-Vargas-Karol-Dayana.html",
   "icfes": 219,
   "estado": "A seguir mejorando",
-  "rank": 89,
-  "estimado_s1": false
+  "rank": 89
  },
  {
   "nombre": "Heredia Moreno Ornella",
@@ -896,8 +807,7 @@
   "archivo": "reportes_sim5/090-Heredia-Moreno-Ornella.html",
   "icfes": 219,
   "estado": "A seguir mejorando",
-  "rank": 90,
-  "estimado_s1": true
+  "rank": 90
  },
  {
   "nombre": "Hernandez Hoyos Maria Angel",
@@ -906,8 +816,7 @@
   "archivo": "reportes_sim5/091-Hernandez-Hoyos-Maria-Angel.html",
   "icfes": 219,
   "estado": "A seguir mejorando",
-  "rank": 91,
-  "estimado_s1": true
+  "rank": 91
  },
  {
   "nombre": "Hernandez Alvarez Elemi",
@@ -916,8 +825,7 @@
   "archivo": "reportes_sim5/092-Hernandez-Alvarez-Elemi.html",
   "icfes": 217,
   "estado": "A seguir mejorando",
-  "rank": 92,
-  "estimado_s1": true
+  "rank": 92
  },
  {
   "nombre": "Perez Moreno Katalina",
@@ -926,8 +834,7 @@
   "archivo": "reportes_sim5/093-Perez-Moreno-Katalina.html",
   "icfes": 217,
   "estado": "A seguir mejorando",
-  "rank": 93,
-  "estimado_s1": false
+  "rank": 93
  },
  {
   "nombre": "Fabra Vazquez Samuel David",
@@ -936,8 +843,7 @@
   "archivo": "reportes_sim5/094-Fabra-Vazquez-Samuel-David.html",
   "icfes": 216,
   "estado": "A seguir mejorando",
-  "rank": 94,
-  "estimado_s1": false
+  "rank": 94
  },
  {
   "nombre": "Mercado Perez Juan Felipe",
@@ -946,8 +852,7 @@
   "archivo": "reportes_sim5/095-Mercado-Perez-Juan-Felipe.html",
   "icfes": 216,
   "estado": "A seguir mejorando",
-  "rank": 95,
-  "estimado_s1": false
+  "rank": 95
  },
  {
   "nombre": "Romero Zuñiga Cristiano Ronaldo",
@@ -956,8 +861,7 @@
   "archivo": "reportes_sim5/096-Romero-Zuniga-Cristiano-Ronaldo.html",
   "icfes": 214,
   "estado": "A seguir mejorando",
-  "rank": 96,
-  "estimado_s1": false
+  "rank": 96
  },
  {
   "nombre": "Salgado Verona Katy Milena",
@@ -966,8 +870,7 @@
   "archivo": "reportes_sim5/097-Salgado-Verona-Katy-Milena.html",
   "icfes": 214,
   "estado": "A seguir mejorando",
-  "rank": 97,
-  "estimado_s1": false
+  "rank": 97
  },
  {
   "nombre": "Sampayo Alvis Ronald",
@@ -976,8 +879,7 @@
   "archivo": "reportes_sim5/098-Sampayo-Alvis-Ronald.html",
   "icfes": 213,
   "estado": "A seguir mejorando",
-  "rank": 98,
-  "estimado_s1": false
+  "rank": 98
  },
  {
   "nombre": "Carrasco Montiel Kevin David",
@@ -986,8 +888,7 @@
   "archivo": "reportes_sim5/099-Carrasco-Montiel-Kevin-David.html",
   "icfes": 212,
   "estado": "A seguir mejorando",
-  "rank": 99,
-  "estimado_s1": false
+  "rank": 99
  },
  {
   "nombre": "Coronado Ojeda Gabriela",
@@ -996,8 +897,7 @@
   "archivo": "reportes_sim5/100-Coronado-Ojeda-Gabriela.html",
   "icfes": 212,
   "estado": "A seguir mejorando",
-  "rank": 100,
-  "estimado_s1": false
+  "rank": 100
  },
  {
   "nombre": "Gonzalez Calao Ana Sofia",
@@ -1006,8 +906,7 @@
   "archivo": "reportes_sim5/101-Gonzalez-Calao-Ana-Sofia.html",
   "icfes": 212,
   "estado": "A seguir mejorando",
-  "rank": 101,
-  "estimado_s1": true
+  "rank": 101
  },
  {
   "nombre": "Pastrana Romero Juliana Andrea",
@@ -1016,8 +915,7 @@
   "archivo": "reportes_sim5/102-Pastrana-Romero-Juliana-Andrea.html",
   "icfes": 210,
   "estado": "A seguir mejorando",
-  "rank": 102,
-  "estimado_s1": false
+  "rank": 102
  },
  {
   "nombre": "Gonzalez Ramos Keiner",
@@ -1026,8 +924,7 @@
   "archivo": "reportes_sim5/103-Gonzalez-Ramos-Keiner.html",
   "icfes": 209,
   "estado": "A seguir mejorando",
-  "rank": 103,
-  "estimado_s1": true
+  "rank": 103
  },
  {
   "nombre": "Meza Aviles Jaider David",
@@ -1036,8 +933,7 @@
   "archivo": "reportes_sim5/104-Meza-Aviles-Jaider-David.html",
   "icfes": 208,
   "estado": "A seguir mejorando",
-  "rank": 104,
-  "estimado_s1": false
+  "rank": 104
  },
  {
   "nombre": "Perez Cantero Maria Jose",
@@ -1046,8 +942,7 @@
   "archivo": "reportes_sim5/105-Perez-Cantero-Maria-Jose.html",
   "icfes": 208,
   "estado": "A seguir mejorando",
-  "rank": 105,
-  "estimado_s1": false
+  "rank": 105
  },
  {
   "nombre": "Rodriguez Florez Yuris Paola",
@@ -1056,8 +951,7 @@
   "archivo": "reportes_sim5/106-Rodriguez-Florez-Yuris-Paola.html",
   "icfes": 208,
   "estado": "A seguir mejorando",
-  "rank": 106,
-  "estimado_s1": false
+  "rank": 106
  },
  {
   "nombre": "Villadiego Jimenez Jaiver",
@@ -1066,8 +960,7 @@
   "archivo": "reportes_sim5/107-Villadiego-Jimenez-Jaiver.html",
   "icfes": 208,
   "estado": "A seguir mejorando",
-  "rank": 107,
-  "estimado_s1": false
+  "rank": 107
  },
  {
   "nombre": "Alzate Carmona Jhojan Stiven",
@@ -1076,8 +969,7 @@
   "archivo": "reportes_sim5/108-Alzate-Carmona-Jhojan-Stiven.html",
   "icfes": 207,
   "estado": "A seguir mejorando",
-  "rank": 108,
-  "estimado_s1": false
+  "rank": 108
  },
  {
   "nombre": "Arrieta Jaramillo Yoiner",
@@ -1086,8 +978,7 @@
   "archivo": "reportes_sim5/109-Arrieta-Jaramillo-Yoiner.html",
   "icfes": 207,
   "estado": "A seguir mejorando",
-  "rank": 109,
-  "estimado_s1": false
+  "rank": 109
  },
  {
   "nombre": "Castillo Suarez Yennifer",
@@ -1096,8 +987,7 @@
   "archivo": "reportes_sim5/110-Castillo-Suarez-Yennifer.html",
   "icfes": 207,
   "estado": "A seguir mejorando",
-  "rank": 110,
-  "estimado_s1": false
+  "rank": 110
  },
  {
   "nombre": "Espitia Castro Naiderlin",
@@ -1106,8 +996,7 @@
   "archivo": "reportes_sim5/111-Espitia-Castro-Naiderlin.html",
   "icfes": 207,
   "estado": "A seguir mejorando",
-  "rank": 111,
-  "estimado_s1": false
+  "rank": 111
  },
  {
   "nombre": "Vergara Martinez Ana Sofia",
@@ -1116,8 +1005,7 @@
   "archivo": "reportes_sim5/112-Vergara-Martinez-Ana-Sofia.html",
   "icfes": 207,
   "estado": "A seguir mejorando",
-  "rank": 112,
-  "estimado_s1": false
+  "rank": 112
  },
  {
   "nombre": "Ariza Echavarria Samara",
@@ -1126,8 +1014,7 @@
   "archivo": "reportes_sim5/113-Ariza-Echavarria-Samara.html",
   "icfes": 206,
   "estado": "A seguir mejorando",
-  "rank": 113,
-  "estimado_s1": false
+  "rank": 113
  },
  {
   "nombre": "Florez Hernandez Mariana",
@@ -1136,8 +1023,7 @@
   "archivo": "reportes_sim5/114-Florez-Hernandez-Mariana.html",
   "icfes": 206,
   "estado": "A seguir mejorando",
-  "rank": 114,
-  "estimado_s1": false
+  "rank": 114
  },
  {
   "nombre": "Ruiz Perez Kevin Andres",
@@ -1146,8 +1032,7 @@
   "archivo": "reportes_sim5/115-Ruiz-Perez-Kevin-Andres.html",
   "icfes": 206,
   "estado": "A seguir mejorando",
-  "rank": 115,
-  "estimado_s1": false
+  "rank": 115
  },
  {
   "nombre": "Cardenas Mansilla Taliana",
@@ -1156,8 +1041,7 @@
   "archivo": "reportes_sim5/116-Cardenas-Mansilla-Taliana.html",
   "icfes": 204,
   "estado": "A seguir mejorando",
-  "rank": 116,
-  "estimado_s1": false
+  "rank": 116
  },
  {
   "nombre": "Perez de Hoyos Luz Elena",
@@ -1166,8 +1050,7 @@
   "archivo": "reportes_sim5/117-Perez-de-Hoyos-Luz-Elena.html",
   "icfes": 202,
   "estado": "A seguir mejorando",
-  "rank": 117,
-  "estimado_s1": false
+  "rank": 117
  },
  {
   "nombre": "Romero Acosta Genesis",
@@ -1176,8 +1059,7 @@
   "archivo": "reportes_sim5/118-Romero-Acosta-Genesis.html",
   "icfes": 202,
   "estado": "A seguir mejorando",
-  "rank": 118,
-  "estimado_s1": false
+  "rank": 118
  },
  {
   "nombre": "Gomez Hoyos Tailin Maria",
@@ -1186,8 +1068,7 @@
   "archivo": "reportes_sim5/119-Gomez-Hoyos-Tailin-Maria.html",
   "icfes": 201,
   "estado": "A seguir mejorando",
-  "rank": 119,
-  "estimado_s1": true
+  "rank": 119
  },
  {
   "nombre": "Avila Garcia Nikol Michell",
@@ -1196,8 +1077,7 @@
   "archivo": "reportes_sim5/120-Avila-Garcia-Nikol-Michell.html",
   "icfes": 200,
   "estado": "A seguir mejorando",
-  "rank": 120,
-  "estimado_s1": false
+  "rank": 120
  },
  {
   "nombre": "Ramos Calle Maria Alejandra",
@@ -1206,8 +1086,7 @@
   "archivo": "reportes_sim5/121-Ramos-Calle-Maria-Alejandra.html",
   "icfes": 199,
   "estado": "A seguir mejorando",
-  "rank": 121,
-  "estimado_s1": false
+  "rank": 121
  },
  {
   "nombre": "Rivera Silva Leonel Andres",
@@ -1216,8 +1095,7 @@
   "archivo": "reportes_sim5/122-Rivera-Silva-Leonel-Andres.html",
   "icfes": 198,
   "estado": "A seguir mejorando",
-  "rank": 122,
-  "estimado_s1": false
+  "rank": 122
  },
  {
   "nombre": "Sala Solis Yonier Andres",
@@ -1226,8 +1104,7 @@
   "archivo": "reportes_sim5/123-Sala-Solis-Yonier-Andres.html",
   "icfes": 198,
   "estado": "A seguir mejorando",
-  "rank": 123,
-  "estimado_s1": false
+  "rank": 123
  },
  {
   "nombre": "Alarcon Mendez Angie Paola",
@@ -1236,8 +1113,7 @@
   "archivo": "reportes_sim5/124-Alarcon-Mendez-Angie-Paola.html",
   "icfes": 196,
   "estado": "A seguir mejorando",
-  "rank": 124,
-  "estimado_s1": false
+  "rank": 124
  },
  {
   "nombre": "Montes Cordero Lorena Loreth",
@@ -1246,8 +1122,7 @@
   "archivo": "reportes_sim5/125-Montes-Cordero-Lorena-Loreth.html",
   "icfes": 196,
   "estado": "A seguir mejorando",
-  "rank": 125,
-  "estimado_s1": false
+  "rank": 125
  },
  {
   "nombre": "Romero Sierra Didien Matias",
@@ -1256,8 +1131,7 @@
   "archivo": "reportes_sim5/126-Romero-Sierra-Didien-Matias.html",
   "icfes": 196,
   "estado": "A seguir mejorando",
-  "rank": 126,
-  "estimado_s1": false
+  "rank": 126
  },
  {
   "nombre": "Castillo Ricardo Isabel",
@@ -1266,8 +1140,7 @@
   "archivo": "reportes_sim5/127-Castillo-Ricardo-Isabel.html",
   "icfes": 195,
   "estado": "A seguir mejorando",
-  "rank": 127,
-  "estimado_s1": false
+  "rank": 127
  },
  {
   "nombre": "Gomez Muñoz Maria Carolina",
@@ -1276,8 +1149,7 @@
   "archivo": "reportes_sim5/128-Gomez-Munoz-Maria-Carolina.html",
   "icfes": 195,
   "estado": "A seguir mejorando",
-  "rank": 128,
-  "estimado_s1": true
+  "rank": 128
  },
  {
   "nombre": "Sola Martinez Dioni",
@@ -1286,8 +1158,7 @@
   "archivo": "reportes_sim5/129-Sola-Martinez-Dioni.html",
   "icfes": 195,
   "estado": "A seguir mejorando",
-  "rank": 129,
-  "estimado_s1": false
+  "rank": 129
  },
  {
   "nombre": "Paternina Arcia Jose Julian",
@@ -1296,8 +1167,7 @@
   "archivo": "reportes_sim5/130-Paternina-Arcia-Jose-Julian.html",
   "icfes": 192,
   "estado": "A seguir mejorando",
-  "rank": 130,
-  "estimado_s1": false
+  "rank": 130
  },
  {
   "nombre": "Garcia Guerra Maria Jose",
@@ -1306,8 +1176,7 @@
   "archivo": "reportes_sim5/131-Garcia-Guerra-Maria-Jose.html",
   "icfes": 189,
   "estado": "A seguir mejorando",
-  "rank": 131,
-  "estimado_s1": true
+  "rank": 131
  },
  {
   "nombre": "Montalvo Soto Monica Paola",
@@ -1316,8 +1185,7 @@
   "archivo": "reportes_sim5/132-Montalvo-Soto-Monica-Paola.html",
   "icfes": 188,
   "estado": "A seguir mejorando",
-  "rank": 132,
-  "estimado_s1": false
+  "rank": 132
  },
  {
   "nombre": "Martinez Hernandez Sofia",
@@ -1326,8 +1194,7 @@
   "archivo": "reportes_sim5/133-Martinez-Hernandez-Sofia.html",
   "icfes": 186,
   "estado": "A seguir mejorando",
-  "rank": 133,
-  "estimado_s1": false
+  "rank": 133
  },
  {
   "nombre": "Ruiz Martinez Stefany",
@@ -1336,8 +1203,7 @@
   "archivo": "reportes_sim5/134-Ruiz-Martinez-Stefany.html",
   "icfes": 183,
   "estado": "A seguir mejorando",
-  "rank": 134,
-  "estimado_s1": false
+  "rank": 134
  },
  {
   "nombre": "Hernandez Pastrana Alys Patricia",
@@ -1346,8 +1212,7 @@
   "archivo": "reportes_sim5/135-Hernandez-Pastrana-Alys-Patricia.html",
   "icfes": 178,
   "estado": "A seguir mejorando",
-  "rank": 135,
-  "estimado_s1": true
+  "rank": 135
  },
  {
   "nombre": "Martinez Pacheco Andres Felipe",
@@ -1356,8 +1221,7 @@
   "archivo": "reportes_sim5/136-Martinez-Pacheco-Andres-Felipe.html",
   "icfes": 176,
   "estado": "A seguir mejorando",
-  "rank": 136,
-  "estimado_s1": false
+  "rank": 136
  },
  {
   "nombre": "Tuiran Moreno Enan Joaquin",
@@ -1366,8 +1230,7 @@
   "archivo": "reportes_sim5/137-Tuiran-Moreno-Enan-Joaquin.html",
   "icfes": 175,
   "estado": "A seguir mejorando",
-  "rank": 137,
-  "estimado_s1": false
+  "rank": 137
  },
  {
   "nombre": "Fuentes Mendoza Hector Luis",
@@ -1376,8 +1239,7 @@
   "archivo": "reportes_sim5/138-Fuentes-Mendoza-Hector-Luis.html",
   "icfes": 173,
   "estado": "A seguir mejorando",
-  "rank": 138,
-  "estimado_s1": true
+  "rank": 138
  },
  {
   "nombre": "Mestra Avila Juan David",
@@ -1386,8 +1248,7 @@
   "archivo": "reportes_sim5/139-Mestra-Avila-Juan-David.html",
   "icfes": 162,
   "estado": "A seguir mejorando",
-  "rank": 139,
-  "estimado_s1": false
+  "rank": 139
  },
  {
   "nombre": "Quintero Rosario Bresly",
@@ -1396,8 +1257,7 @@
   "archivo": "reportes_sim5/140-Quintero-Rosario-Bresly.html",
   "icfes": 161,
   "estado": "A seguir mejorando",
-  "rank": 140,
-  "estimado_s1": false
+  "rank": 140
  },
  {
   "nombre": "Vergara Ocampo Jesus David",
@@ -1406,8 +1266,7 @@
   "archivo": "reportes_sim5/141-Vergara-Ocampo-Jesus-David.html",
   "icfes": 161,
   "estado": "A seguir mejorando",
-  "rank": 141,
-  "estimado_s1": false
+  "rank": 141
  },
  {
   "nombre": "Tejada Zuñiga Victor Manuel",
@@ -1416,8 +1275,7 @@
   "archivo": "reportes_sim5/142-Tejada-Zuniga-Victor-Manuel.html",
   "icfes": 160,
   "estado": "A seguir mejorando",
-  "rank": 142,
-  "estimado_s1": false
+  "rank": 142
  },
  {
   "nombre": "Quintero Suarez Jhon Freed",
@@ -1426,8 +1284,7 @@
   "archivo": "reportes_sim5/143-Quintero-Suarez-Jhon-Freed.html",
   "icfes": 157,
   "estado": "A seguir mejorando",
-  "rank": 143,
-  "estimado_s1": false
+  "rank": 143
  },
  {
   "nombre": "Marchena Barrero Carlos Daniel",
@@ -1436,8 +1293,7 @@
   "archivo": "reportes_sim5/144-Marchena-Barrero-Carlos-Daniel.html",
   "icfes": 156,
   "estado": "A seguir mejorando",
-  "rank": 144,
-  "estimado_s1": false
+  "rank": 144
  },
  {
   "nombre": "Torres Cadrasco Yaira Andrea",
@@ -1446,8 +1302,7 @@
   "archivo": "reportes_sim5/145-Torres-Cadrasco-Yaira-Andrea.html",
   "icfes": 151,
   "estado": "A seguir mejorando",
-  "rank": 145,
-  "estimado_s1": false
+  "rank": 145
  },
  {
   "nombre": "Montalvo Pacheco Cristian David",
@@ -1456,8 +1311,7 @@
   "archivo": "reportes_sim5/146-Montalvo-Pacheco-Cristian-David.html",
   "icfes": 146,
   "estado": "A seguir mejorando",
-  "rank": 146,
-  "estimado_s1": false
+  "rank": 146
  },
  {
   "nombre": "Scheleguel Correa Danna Carolina",
@@ -1466,8 +1320,7 @@
   "archivo": "reportes_sim5/147-Scheleguel-Correa-Danna-Carolina.html",
   "icfes": 145,
   "estado": "A seguir mejorando",
-  "rank": 147,
-  "estimado_s1": false
+  "rank": 147
  },
  {
   "nombre": "Florez Londoño John Esteban",
@@ -1476,7 +1329,6 @@
   "archivo": "reportes_sim5/148-Florez-Londono-John-Esteban.html",
   "icfes": 144,
   "estado": "A seguir mejorando",
-  "rank": 148,
-  "estimado_s1": false
+  "rank": 148
  }
 ]
