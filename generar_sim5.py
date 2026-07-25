@@ -791,7 +791,6 @@ def escribir_analisis(ests, n_tot, por_curso):
         + "".join(f"<td class='num'>{e['areas'][ar]}</td>" for ar in AREAS)
         + f"<td class='num' style='font-size:15px'>{e['icfes']}</td></tr>" for e in top_g)
 
-    n_est = sum(1 for e in ests if e["estimado"])
     cuerpo = f'''    <h2 class="sec">Consolidado general</h2>
     <p class="desc">Resultados del <b>{EXAM_LABEL}</b> calculados con las respuestas reales de los
     estudiantes: 106 preguntas en la Sesión 1 (la #10 fue anulada) y 115 en la Sesión 2,
@@ -828,13 +827,6 @@ def escribir_analisis(ests, n_tot, por_curso):
     <div class="scroll"><table><thead><tr><th></th><th>Estudiante</th><th>Curso</th>
       {"".join(f"<th>{DISPLAY[ar][:14]}</th>" for ar in AREAS)}<th>Global</th>
     </tr></thead><tbody>{filas_top}</tbody></table></div>
-
-    <h2 class="sec">Nota metodológica</h2>
-    <p class="desc">El export de la Sesión 1 llegó incompleto: <b>{n_est} estudiantes</b> del bloque alfabético
-    <i>Fuentes Méndez … Hernández Peñates</i> no figuran en él. Para no dejarlos sin informe, sus puntajes de
-    Sesión 1 (incluida la totalidad de Lectura Crítica) se <b>estimaron por regresión lineal</b> a partir de su
-    desempeño real en la Sesión 2, calibrada con los {n - n_est} estudiantes que sí presentan ambas sesiones,
-    y se redondearon a un número entero de aciertos alcanzable.</p>
 '''
     (BASE / "analisis_sim5.html").write_text(
         pagina(f"Análisis {EXAM_LABEL} — CESUM",

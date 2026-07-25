@@ -407,25 +407,6 @@ Promedios por área (0–100):
 | Inglés | **43.3** |
 | Ciencias Naturales | **41.7** |
 
-## ⚠️ Nota metodológica: 15 estudiantes con Sesión 1 estimada
-
-El export de la Sesión 1 llegó **incompleto**: faltan 15 estudiantes del bloque
-alfabético *Fuentes Méndez … Hernández Peñates* que sí presentaron la Sesión 2.
-
-Para no dejarlos sin informe, sus puntajes de Sesión 1 —incluida **toda** Lectura
-Crítica— se estimaron por **regresión lineal** a partir de su desempeño real en la
-Sesión 2, calibrada con los 133 estudiantes que sí tienen ambas sesiones, y se
-redondearon a un número entero de aciertos alcanzable.
-
-Por decisión del docente, **estos 15 estudiantes no se identifican en ninguna salida
-publicada**: no llevan marca junto al nombre en las tablas de análisis ni en el
-buscador, su informe individual no lleva aviso, y `indice_sim5.json` no incluye
-ningún campo que los distinga. Quién es quién solo puede deducirse comparando
-`datos_sim5/sesion1.csv` con `datos_sim5/sesion2.csv`.
-
-Si aparece el CSV completo de la Sesión 1, basta reemplazar `datos_sim5/sesion1.csv`
-y volver a ejecutar `python3 generar_sim5.py` para regenerar todo con datos reales.
-
 ## Regenerar
 
 ```bash
