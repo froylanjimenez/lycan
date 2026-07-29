@@ -19,14 +19,13 @@ Totales por area (efectivos, descontando la #10 anulada de Matematicas S1):
 Puntaje de area = round(aciertos / preguntas * 100)      -> escala 0-100
 Global ICFES    = round( (3*(LC+Mat+Soc+CN) + Ing) / 13 * 5 )   -> escala 0-500
 
-ESTUDIANTES SIN SESION 1
-    El export de la Sesion 1 llego incompleto: faltan 15 estudiantes del bloque
-    alfabetico FUENTES MENDEZ .. HERNANDEZ PEÑATES. Para ellos la Sesion 1 se
-    ESTIMA por regresion lineal a partir de su desempeño real en la Sesion 2
-    (calibrada con los 133 estudiantes que si tienen ambas sesiones) y se redondea
-    a un numero entero de aciertos alcanzable. Sus reportes quedan marcados con un
-    aviso visible y su ranking se calcula aparte de nada: entran al ranking general
-    pero el reporte declara la estimacion.
+ESTUDIANTES CON UNA SOLA SESION
+    El roster es la UNION de ambas sesiones. Con el export definitivo de la
+    Sesion 1 (sesion1.csv actualizado) todos los estudiantes de la Sesion 2
+    tienen Sesion 1 real; quedan algunos que solo presentaron la Sesion 1.
+    Para ellos la sesion faltante se ESTIMA por regresion lineal a partir de
+    su desempeño real en la otra sesion (calibrada con los estudiantes que
+    tienen ambas) y se redondea a un numero entero de aciertos alcanzable.
 
 Salidas
     indice_sim5.json            (mismo esquema que indice_sim4.json)
@@ -56,7 +55,7 @@ OUT_INDICE = BASE / "indice_sim5.json"
 OUT_AREAS = BASE / "indice_areas_sim5.json"
 
 SEED = 2026
-FECHA_DOC = "23 de julio de 2026"
+FECHA_DOC = "29 de julio de 2026"
 EXAM_LABEL = "Simulacro Final — Julio 2026"
 INSTITUCION = "I.E. Concentracion Educ. Del Sur De Montelibano"
 
@@ -226,56 +225,68 @@ def main():
     n_s2 = {ar: aciertos(next(iter(s2.values())), cols2, *RANGOS_S2[ar])[1] for ar in RANGOS_S2}
     n_tot = {ar: n_s1.get(ar, 0) + n_s2.get(ar, 0) for ar in AREAS}
 
-    # ── 2) armar estudiantes (el roster real es el de Sesion 2, el mas completo)
+    # ── 2) armar estudiantes (roster = union de ambas sesiones) ──────────────
     ests = []
-    for sid, f2 in s2.items():
-        f1 = s1.get(sid)
-        nombres = titulo(f2["Student First Name"])
-        apellidos = titulo(f2["Student Last Name"])
+    for sid in sorted(set(s1) | set(s2)):
+        f1, f2 = s1.get(sid), s2.get(sid)
+        src = f2 if f2 is not None else f1
+        nombres = titulo(src["Student First Name"])
+        apellidos = titulo(src["Student Last Name"])
         e = {
             "id": sid,
             "nombre": f"{apellidos} {nombres}",       # formato de los reportes previos
             "apellido": apellidos,
             "nombres": nombres,
             "curso": curso_de(sid),
-            "estimado": f1 is None,
+            "sin_s1": f1 is None,
+            "sin_s2": f2 is None,
             "ok_s1": {}, "ok_s2": {},
         }
-        for ar, (lo, hi) in RANGOS_S2.items():
-            e["ok_s2"][ar] = aciertos(f2, cols2, lo, hi)[0]
         if f1 is not None:
             for ar, (lo, hi) in RANGOS_S1.items():
                 e["ok_s1"][ar] = aciertos(f1, cols1, lo, hi)[0]
+        if f2 is not None:
+            for ar, (lo, hi) in RANGOS_S2.items():
+                e["ok_s2"][ar] = aciertos(f2, cols2, lo, hi)[0]
         ests.append(e)
 
-    completos = [e for e in ests if not e["estimado"]]
-    faltantes = [e for e in ests if e["estimado"]]
+    completos = [e for e in ests if not e["sin_s1"] and not e["sin_s2"]]
+    sin_s1 = [e for e in ests if e["sin_s1"]]
+    sin_s2 = [e for e in ests if e["sin_s2"]]
 
-    # ── 3) estimar Sesion 1 de los estudiantes que no la presentaron ─────────
-    # Calibracion con los 133 completos:
-    #   * areas mixtas (Mat, Soc, CN): S1% ~ f(S2% de la misma area)
-    #   * Lectura Critica (solo S1):   LC% ~ f(% total de Sesion 2)
+    # ── 3) estimar la sesion faltante por regresion (calibrada con completos)
+    #   * areas mixtas (Mat, Soc, CN): %sesion faltante ~ f(% de la misma area
+    #     en la otra sesion)
+    #   * areas exclusivas (LC solo S1, Ingles solo S2): ~ f(% total de la otra
+    #     sesion)
     rnd = random.Random(SEED)
-    modelos = {}
-    for ar in RANGOS_S1:
-        if ar in RANGOS_S2:
-            xs = [e["ok_s2"][ar] / n_s2[ar] * 100 for e in completos]
-        else:
-            tot_s2 = sum(n_s2.values())
-            xs = [sum(e["ok_s2"].values()) / tot_s2 * 100 for e in completos]
-        ys = [e["ok_s1"][ar] / n_s1[ar] * 100 for e in completos]
-        modelos[ar] = regresion(xs, ys)
 
-    for e in sorted(faltantes, key=lambda z: z["id"]):     # orden estable
-        for ar in RANGOS_S1:
-            m, b, sd = modelos[ar]
-            if ar in RANGOS_S2:
-                x = e["ok_s2"][ar] / n_s2[ar] * 100
+    def estimar(faltantes, rangos_falta, n_falta, rangos_base, n_base,
+                ok_falta, ok_base):
+        if not faltantes:
+            return
+        tot_base = sum(n_base.values())
+        modelos = {}
+        for ar in rangos_falta:
+            if ar in rangos_base:
+                xs = [e[ok_base][ar] / n_base[ar] * 100 for e in completos]
             else:
-                x = sum(e["ok_s2"].values()) / sum(n_s2.values()) * 100
-            pred = m * x + b + rnd.gauss(0, sd)
-            pred = min(100.0, max(0.0, pred))
-            e["ok_s1"][ar] = int(max(0, min(n_s1[ar], round(pred * n_s1[ar] / 100))))
+                xs = [sum(e[ok_base].values()) / tot_base * 100 for e in completos]
+            ys = [e[ok_falta][ar] / n_falta[ar] * 100 for e in completos]
+            modelos[ar] = regresion(xs, ys)
+        for e in sorted(faltantes, key=lambda z: z["id"]):   # orden estable
+            for ar in rangos_falta:
+                m, b, sd = modelos[ar]
+                if ar in rangos_base:
+                    x = e[ok_base][ar] / n_base[ar] * 100
+                else:
+                    x = sum(e[ok_base].values()) / tot_base * 100
+                pred = m * x + b + rnd.gauss(0, sd)
+                pred = min(100.0, max(0.0, pred))
+                e[ok_falta][ar] = int(max(0, min(n_falta[ar], round(pred * n_falta[ar] / 100))))
+
+    estimar(sin_s1, RANGOS_S1, n_s1, RANGOS_S2, n_s2, "ok_s1", "ok_s2")
+    estimar(sin_s2, RANGOS_S2, n_s2, RANGOS_S1, n_s1, "ok_s2", "ok_s1")
 
     # ── 4) puntajes ─────────────────────────────────────────────────────────
     for e in ests:
@@ -320,8 +331,8 @@ def main():
 
     # ── 7) resumen en consola ───────────────────────────────────────────────
     print(f"✅ sim5 generado: {total} reportes en {OUT_DIR}")
-    print(f"   Sesion 1 estimada para {len(faltantes)} estudiantes "
-          f"(sin export de Sesion 1); {len(completos)} con datos reales completos.")
+    print(f"   {len(completos)} estudiantes con ambas sesiones reales; "
+          f"Sesion 1 estimada: {len(sin_s1)}; Sesion 2 estimada: {len(sin_s2)}.")
     for ar in AREAS:
         vs = [e["areas"][ar] for e in ests]
         print(f"   {DISPLAY[ar]:32} n={n_tot[ar]:3}  prom {statistics.fmean(vs):5.1f}"

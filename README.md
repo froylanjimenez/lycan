@@ -350,7 +350,7 @@ de los estudiantes** (los anteriores se estimaban a partir del simulacro externo
 | `analisis_sim5_sociales.html` | Análisis de Sociales y Ciudadanas |
 | `analisis_sim5_ciencias_naturales.html` | Análisis de Ciencias Naturales |
 | `analisis_sim5_ingles.html` | Análisis de Inglés |
-| `reportes_sim5/` | **148 informes individuales** (uno por estudiante) |
+| `reportes_sim5/` | **158 informes individuales** (uno por estudiante) |
 | `indice_sim5.json` | Índice: nombre, curso, global, puesto |
 | `indice_areas_sim5.json` | Puntajes por área de cada estudiante |
 | `datos_sim5/` | CSV originales de Sesión 1 y Sesión 2 |
@@ -358,7 +358,7 @@ de los estudiantes** (los anteriores se estimaban a partir del simulacro externo
 
 Cada análisis por área trae: promedio, mediana, máximo, mínimo y desviación;
 **los 15 mejores puntajes**, **los 15 más bajos**, promedio por curso,
-distribución por rangos y la tabla completa de los 148 estudiantes.
+distribución por rangos y la tabla completa de los 158 estudiantes.
 
 ## Estructura de la prueba
 
@@ -393,19 +393,20 @@ Niveles de desempeño global: **Alto** ≥ 326 · **Medio** 220–325 · **Bási
 
 ## Resultados generales
 
-- Estudiantes: **148** (6 cursos: 11-1 a 11-6)
-- Promedio global: **242.7 / 500** — máximo **385** · mínimo **144**
-- Con opciones en la Universidad de Córdoba (global ≥ 246.75): **64**
+- Estudiantes: **158** (6 cursos: 11-1 a 11-6). 148 con ambas sesiones reales;
+  10 presentaron solo la Sesión 1 y su Sesión 2 se estimó por regresión.
+- Promedio global: **242.3 / 500** — máximo **385** · mínimo **144**
+- Con opciones en la Universidad de Córdoba (global ≥ 246.75): **68**
 
 Promedios por área (0–100):
 
 | Área | Promedio |
 |---|---|
-| Lectura Crítica | **57.3** |
-| Ciencias Sociales - C. Ciudadanas | **49.6** |
-| Matemáticas | **47.4** |
-| Inglés | **43.3** |
-| Ciencias Naturales | **41.7** |
+| Lectura Crítica | **57.0** |
+| Ciencias Sociales - C. Ciudadanas | **49.9** |
+| Matemáticas | **46.9** |
+| Inglés | **43.0** |
+| Ciencias Naturales | **41.8** |
 
 ## Regenerar
 
